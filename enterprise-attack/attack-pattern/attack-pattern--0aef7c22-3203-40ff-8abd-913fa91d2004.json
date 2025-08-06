@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--0aef7c22-3203-40ff-8abd-913fa91d2004",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.852227Z",
+    "modified": "2025-08-06T08:27:31.852228Z",
+    "name": "Lack of separation of permissions",
+    "description": "Lack of separation of permissions against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-LACK"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "credential-access"
+    ]
+}

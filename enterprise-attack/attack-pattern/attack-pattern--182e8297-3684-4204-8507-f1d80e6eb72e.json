@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--182e8297-3684-4204-8507-f1d80e6eb72e",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.857658Z",
+    "modified": "2025-08-06T08:27:31.857659Z",
+    "name": "Compromised Payload",
+    "description": "Compromised Payload against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-COMP"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "lateral-movement"
+    ]
+}

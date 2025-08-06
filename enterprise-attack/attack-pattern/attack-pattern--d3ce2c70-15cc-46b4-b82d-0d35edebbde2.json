@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--d3ce2c70-15cc-46b4-b82d-0d35edebbde2",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.827819Z",
+    "modified": "2025-08-06T08:27:31.82782Z",
+    "name": "Credential",
+    "description": "Credential against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-CRED"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "resource-development"
+    ]
+}

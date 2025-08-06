@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--38f7b80c-6000-4fa2-a25c-fcab92ce3860",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.839183Z",
+    "modified": "2025-08-06T08:27:31.839184Z",
+    "name": "Bus Traffic Replay",
+    "description": "Bus Traffic Replay against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-BUS "
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "execution"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--8d732512-104d-4ce1-a4e7-472ad563c99d",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.849338Z",
+    "modified": "2025-08-06T08:27:31.849339Z",
+    "name": "Steal Cryptographic Keys",
+    "description": "Steal Cryptographic Keys against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-STEA"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "credential-access"
+    ]
+}

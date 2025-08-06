@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--db0c6a83-325f-4c86-baeb-83bded9e2cc3",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.831462Z",
+    "modified": "2025-08-06T08:27:31.831463Z",
+    "name": "Valid Credential",
+    "description": "Valid Credential against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-VALI"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "initial-access"
+    ]
+}

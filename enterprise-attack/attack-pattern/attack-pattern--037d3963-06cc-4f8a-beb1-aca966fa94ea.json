@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--037d3963-06cc-4f8a-beb1-aca966fa94ea",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.836629Z",
+    "modified": "2025-08-06T08:27:31.83663Z",
+    "name": "Bus Traffic Spoofing",
+    "description": "Bus Traffic Spoofing against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-BUS "
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "execution"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--f190edad-2637-4b16-a0b6-e9cb4994ce3b",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.867438Z",
+    "modified": "2025-08-06T08:27:31.867439Z",
+    "name": "TM Modification",
+    "description": "TM Modification against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-TM M"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "exfiltration"
+    ]
+}

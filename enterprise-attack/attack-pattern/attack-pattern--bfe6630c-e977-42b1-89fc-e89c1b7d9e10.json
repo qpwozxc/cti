@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--bfe6630c-e977-42b1-89fc-e89c1b7d9e10",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.864459Z",
+    "modified": "2025-08-06T08:27:31.86446Z",
+    "name": "Traffic Manipulation",
+    "description": "Traffic Manipulation against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-TRAF"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "command-and-control"
+    ]
+}

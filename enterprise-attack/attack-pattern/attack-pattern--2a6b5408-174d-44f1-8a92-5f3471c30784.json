@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--2a6b5408-174d-44f1-8a92-5f3471c30784",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.865943Z",
+    "modified": "2025-08-06T08:27:31.865944Z",
+    "name": "Exfiltration TM",
+    "description": "Exfiltration TM against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-EXFI"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "exfiltration"
+    ]
+}

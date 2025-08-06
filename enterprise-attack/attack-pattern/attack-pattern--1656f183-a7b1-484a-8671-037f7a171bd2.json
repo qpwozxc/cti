@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--1656f183-a7b1-484a-8671-037f7a171bd2",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.834383Z",
+    "modified": "2025-08-06T08:27:31.834384Z",
+    "name": "Obtain Cryptographic Keys",
+    "description": "Obtain Cryptographic Keys against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-OBTA"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "initial-access"
+    ]
+}

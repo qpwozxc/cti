@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--93317a14-b5bf-48de-9f9d-528903f41fec",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.847898Z",
+    "modified": "2025-08-06T08:27:31.847899Z",
+    "name": "Hardcoded Credentials",
+    "description": "Hardcoded Credentials against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-HARD"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "credential-access"
+    ]
+}

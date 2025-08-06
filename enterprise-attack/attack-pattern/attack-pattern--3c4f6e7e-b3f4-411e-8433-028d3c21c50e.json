@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--3c4f6e7e-b3f4-411e-8433-028d3c21c50e",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.823125Z",
+    "modified": "2025-08-06T08:27:31.823127Z",
+    "name": "Sniffing",
+    "description": "Sniffing against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-SNIF"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "reconnaissance"
+    ]
+}

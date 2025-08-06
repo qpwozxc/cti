@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--eab4c669-19c8-4b92-a5ed-a96029f67165",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.865214Z",
+    "modified": "2025-08-06T08:27:31.865215Z",
+    "name": "Lack of command validation",
+    "description": "Lack of command validation against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-LACK"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "command-and-control"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--ca8d6a77-c648-4e5f-8efa-b9f0dd1114f4",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.835119Z",
+    "modified": "2025-08-06T08:27:31.83512Z",
+    "name": "Forge Certificates",
+    "description": "Forge Certificates against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-FORG"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "initial-access"
+    ]
+}

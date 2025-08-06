@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--4d19278c-4ba9-4075-bed5-3c78fa53c4c4",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.82923Z",
+    "modified": "2025-08-06T08:27:31.829231Z",
+    "name": "Software Vulnerabilities",
+    "description": "Software Vulnerabilities against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-SOFT"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "resource-development"
+    ]
+}

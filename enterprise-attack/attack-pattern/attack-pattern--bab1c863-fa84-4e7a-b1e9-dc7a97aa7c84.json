@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--bab1c863-fa84-4e7a-b1e9-dc7a97aa7c84",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.860824Z",
+    "modified": "2025-08-06T08:27:31.860825Z",
+    "name": "Buffer overflow",
+    "description": "Buffer overflow against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-BUFF"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "command-and-control"
+    ]
+}

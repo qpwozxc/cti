@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--1636d5c6-b9f0-417f-8ef2-87fdb196e654",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.860017Z",
+    "modified": "2025-08-06T08:27:31.860018Z",
+    "name": "TC/TM Sniffing",
+    "description": "TC/TM Sniffing against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-TC/T"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "collection"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--1643c17e-d344-45e8-a879-e3181b3c3a04",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.832908Z",
+    "modified": "2025-08-06T08:27:31.832909Z",
+    "name": "Wireless Interface Exploitation",
+    "description": "Wireless Interface Exploitation against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-WIRE"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "initial-access"
+    ]
+}

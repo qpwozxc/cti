@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--8b04294b-969c-4455-831a-ad8e81ddec66",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.830732Z",
+    "modified": "2025-08-06T08:27:31.830733Z",
+    "name": "Obtain Capability",
+    "description": "Obtain Capability against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-OBTA"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "resource-development"
+    ]
+}

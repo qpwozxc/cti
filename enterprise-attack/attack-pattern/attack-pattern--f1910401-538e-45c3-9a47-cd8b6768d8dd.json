@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--f1910401-538e-45c3-9a47-cd8b6768d8dd",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.83739Z",
+    "modified": "2025-08-06T08:27:31.837391Z",
+    "name": "Position Spoofing",
+    "description": "Position Spoofing against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-POSI"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "execution"
+    ]
+}

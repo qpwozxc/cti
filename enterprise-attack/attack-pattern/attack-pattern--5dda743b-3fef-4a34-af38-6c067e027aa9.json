@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--5dda743b-3fef-4a34-af38-6c067e027aa9",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.863697Z",
+    "modified": "2025-08-06T08:27:31.863698Z",
+    "name": "Vulnerability Exploitation",
+    "description": "Vulnerability Exploitation against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-VULN"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "command-and-control"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--91526cd9-99b7-4ac3-bae1-050fb277b4ba",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.835811Z",
+    "modified": "2025-08-06T08:27:31.835812Z",
+    "name": "Time Spoofing",
+    "description": "Time Spoofing against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-TIME"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "execution"
+    ]
+}

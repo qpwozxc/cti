@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--2a44f5f7-f761-4737-be83-abafcdbd88bf",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.826299Z",
+    "modified": "2025-08-06T08:27:31.8263Z",
+    "name": "Acquire Ground Station",
+    "description": "Acquire Ground Station against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-ACQU"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "resource-development"
+    ]
+}

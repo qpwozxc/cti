@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--d7887636-a5b8-44b0-9f4e-9ec2c3f1769b",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.862959Z",
+    "modified": "2025-08-06T08:27:31.86296Z",
+    "name": "Heap Overflow",
+    "description": "Heap Overflow against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-HEAP"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "command-and-control"
+    ]
+}

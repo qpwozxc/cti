@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--f5cb5c4f-eb3f-40e8-9a11-9ec94466a166",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.866726Z",
+    "modified": "2025-08-06T08:27:31.866727Z",
+    "name": "Exfiltration Payload",
+    "description": "Exfiltration Payload against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-EXFI"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "exfiltration"
+    ]
+}

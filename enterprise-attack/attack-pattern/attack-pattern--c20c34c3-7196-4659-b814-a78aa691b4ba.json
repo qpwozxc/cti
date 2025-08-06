@@ -1,0 +1,22 @@
+{
+    "type": "attack-pattern",
+    "spec_version": "2.1",
+    "id": "attack-pattern--c20c34c3-7196-4659-b814-a78aa691b4ba",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.83363Z",
+    "modified": "2025-08-06T08:27:31.833631Z",
+    "name": "Compromise Hosted Payload",
+    "description": "Compromise Hosted Payload against spacecraft systems.",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "T-S-COMP"
+        }
+    ],
+    "x_mitre_platforms": [
+        "Spacecraft"
+    ],
+    "x_mitre_tactic_type": [
+        "initial-access"
+    ]
+}
