@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--c4061a4e-51d8-4c3a-8100-c7c1c6472782",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.821082Z",
+    "modified": "2025-08-06T08:27:31.821083Z",
+    "name": "Impact",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-IMPA"
+        }
+    ],
+    "x_mitre_shortname": "impact"
+}

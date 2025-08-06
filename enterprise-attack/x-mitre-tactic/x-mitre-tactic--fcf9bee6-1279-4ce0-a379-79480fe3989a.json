@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--fcf9bee6-1279-4ce0-a379-79480fe3989a",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.815127Z",
+    "modified": "2025-08-06T08:27:31.815128Z",
+    "name": "Resource Development",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-RESO"
+        }
+    ],
+    "x_mitre_shortname": "resource-development"
+}

@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--3e4b64dd-20b5-4d97-9c33-1cdef5ac4a68",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.82024Z",
+    "modified": "2025-08-06T08:27:31.820241Z",
+    "name": "Exfiltration",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-EXFI"
+        }
+    ],
+    "x_mitre_shortname": "exfiltration"
+}

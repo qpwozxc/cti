@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--7692ccea-e531-484a-9f87-cb5e340c5631",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.818027Z",
+    "modified": "2025-08-06T08:27:31.818028Z",
+    "name": "Lateral Movement",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-LATE"
+        }
+    ],
+    "x_mitre_shortname": "lateral-movement"
+}

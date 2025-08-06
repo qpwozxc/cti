@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--8f0ad374-2d39-4a5a-b108-7cbb35275886",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.816643Z",
+    "modified": "2025-08-06T08:27:31.816644Z",
+    "name": "Execution",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-EXEC"
+        }
+    ],
+    "x_mitre_shortname": "execution"
+}

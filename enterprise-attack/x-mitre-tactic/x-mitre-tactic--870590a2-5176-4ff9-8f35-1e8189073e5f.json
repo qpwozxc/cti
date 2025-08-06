@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--870590a2-5176-4ff9-8f35-1e8189073e5f",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.812784Z",
+    "modified": "2025-08-06T08:27:31.812785Z",
+    "name": "Reconnaissance",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-RECO"
+        }
+    ],
+    "x_mitre_shortname": "reconnaissance"
+}

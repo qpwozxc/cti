@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--7a4e0498-1a27-4f67-bedf-e466c80cccfb",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.818754Z",
+    "modified": "2025-08-06T08:27:31.818755Z",
+    "name": "Collection",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-COLL"
+        }
+    ],
+    "x_mitre_shortname": "collection"
+}

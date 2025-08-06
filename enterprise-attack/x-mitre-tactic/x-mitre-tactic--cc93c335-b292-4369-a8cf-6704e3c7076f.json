@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--cc93c335-b292-4369-a8cf-6704e3c7076f",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.815924Z",
+    "modified": "2025-08-06T08:27:31.815925Z",
+    "name": "Initial Access",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-INIT"
+        }
+    ],
+    "x_mitre_shortname": "initial-access"
+}

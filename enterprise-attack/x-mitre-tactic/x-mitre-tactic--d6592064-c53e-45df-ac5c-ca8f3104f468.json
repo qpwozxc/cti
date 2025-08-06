@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--d6592064-c53e-45df-ac5c-ca8f3104f468",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.819429Z",
+    "modified": "2025-08-06T08:27:31.81943Z",
+    "name": "Command and Control",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-COMM"
+        }
+    ],
+    "x_mitre_shortname": "command-and-control"
+}

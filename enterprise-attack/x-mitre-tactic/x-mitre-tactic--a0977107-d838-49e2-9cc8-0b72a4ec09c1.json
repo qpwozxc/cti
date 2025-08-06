@@ -1,0 +1,16 @@
+{
+    "type": "x-mitre-tactic",
+    "spec_version": "2.1",
+    "id": "x-mitre-tactic--a0977107-d838-49e2-9cc8-0b72a4ec09c1",
+    "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+    "created": "2025-08-06T08:27:31.817317Z",
+    "modified": "2025-08-06T08:27:31.817318Z",
+    "name": "Credential Access",
+    "external_references": [
+        {
+            "source_name": "mitre-attack",
+            "external_id": "TA-S-CRED"
+        }
+    ],
+    "x_mitre_shortname": "credential-access"
+}
