@@ -1,0 +1,1987 @@
+{
+  "type": "bundle",
+  "id": "bundle--83018a05-ce7f-4b23-8c41-ea9b1b902a9d",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--037d3963-06cc-4f8a-beb1-aca966fa94ea",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.836Z",
+      "modified": "2025-08-06T08:27:31.836Z",
+      "name": "Bus Traffic Spoofing",
+      "description": "Bus Traffic Spoofing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-BUS "
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--0aef7c22-3203-40ff-8abd-913fa91d2004",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.852Z",
+      "modified": "2025-08-06T08:27:31.852Z",
+      "name": "Lack of separation of permissions",
+      "description": "Lack of separation of permissions against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-LACK"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--0af00d79-12a1-442d-9b0a-b10eeec310b5",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.845Z",
+      "modified": "2025-08-06T08:27:31.845Z",
+      "name": "Jamming",
+      "description": "Jamming against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-JAMM"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--1636d5c6-b9f0-417f-8ef2-87fdb196e654",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.860Z",
+      "modified": "2025-08-06T08:27:31.860Z",
+      "name": "TC/TM Sniffing",
+      "description": "TC/TM Sniffing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-TC/T"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "collection"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "collection"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--1643c17e-d344-45e8-a879-e3181b3c3a04",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.832Z",
+      "modified": "2025-08-06T08:27:31.832Z",
+      "name": "Wireless Interface Exploitation",
+      "description": "Wireless Interface Exploitation against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-WIRE"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "initial-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--1656f183-a7b1-484a-8671-037f7a171bd2",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.834Z",
+      "modified": "2025-08-06T08:27:31.834Z",
+      "name": "Obtain Cryptographic Keys",
+      "description": "Obtain Cryptographic Keys against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-OBTA"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "initial-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--182e8297-3684-4204-8507-f1d80e6eb72e",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.857Z",
+      "modified": "2025-08-06T08:27:31.857Z",
+      "name": "Compromised Payload",
+      "description": "Compromised Payload against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-COMP"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "lateral-movement"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "lateral-movement"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--1915fe50-9349-4389-8b46-4bb4de4c2401",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.845Z",
+      "modified": "2025-08-06T08:27:31.845Z",
+      "name": "Flooding",
+      "description": "Flooding against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-FLOO"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--1a8e0618-fa9e-441c-a10c-039378000460",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.842Z",
+      "modified": "2025-08-06T08:27:31.842Z",
+      "name": "XSS",
+      "description": "XSS against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-XSS"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--28021010-6b15-44d9-99e3-66b4b49c348d",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.838Z",
+      "modified": "2025-08-06T08:27:31.838Z",
+      "name": "Command Packets",
+      "description": "Command Packets against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-COMM"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--2a44f5f7-f761-4737-be83-abafcdbd88bf",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.826Z",
+      "modified": "2025-08-06T08:27:31.826Z",
+      "name": "Acquire Ground Station",
+      "description": "Acquire Ground Station against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-ACQU"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "resource-development"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--2a6b5408-174d-44f1-8a92-5f3471c30784",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.865Z",
+      "modified": "2025-08-06T08:27:31.865Z",
+      "name": "Exfiltration TM",
+      "description": "Exfiltration TM against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-EXFI"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "exfiltration"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exfiltration"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--32ffa5b2-d56d-47fd-ac76-10571473cb8d",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.868Z",
+      "modified": "2025-08-06T08:27:31.868Z",
+      "name": "Data Exfiltration",
+      "description": "Data Exfiltration against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-DATA"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "impact"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "impact"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--3745851b-a5c7-405e-b44d-b85dc81fe3bb",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.861Z",
+      "modified": "2025-08-06T08:27:31.861Z",
+      "name": "XSS",
+      "description": "XSS against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-XSS"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "command-and-control"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--38f7b80c-6000-4fa2-a25c-fcab92ce3860",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.839Z",
+      "modified": "2025-08-06T08:27:31.839Z",
+      "name": "Bus Traffic Replay",
+      "description": "Bus Traffic Replay against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-BUS "
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--3b88c82f-0a79-4359-b3c9-efbb435ab974",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.858Z",
+      "modified": "2025-08-06T08:27:31.858Z",
+      "name": "Lack of separation of permissions",
+      "description": "Lack of separation of permissions against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-LACK"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "lateral-movement"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "lateral-movement"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--3c4f6e7e-b3f4-411e-8433-028d3c21c50e",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.823Z",
+      "modified": "2025-08-06T08:27:31.823Z",
+      "name": "Sniffing",
+      "description": "Sniffing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SNIF"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "reconnaissance"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--4323d3dc-d9b6-439e-ad03-3911724af151",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.844Z",
+      "modified": "2025-08-06T08:27:31.844Z",
+      "name": "Replay",
+      "description": "Replay against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-REPL"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--44d77f67-e20c-453d-a038-7f9eb8a6f8b9",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.843Z",
+      "modified": "2025-08-06T08:27:31.843Z",
+      "name": "Spoofing",
+      "description": "Spoofing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SPOO"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--46a842a7-0888-4ddb-8adb-3664b5af533f",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.869Z",
+      "modified": "2025-08-06T08:27:31.869Z",
+      "name": "Data Disruption",
+      "description": "Data Disruption against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-DATA"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "impact"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "impact"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--4d19278c-4ba9-4075-bed5-3c78fa53c4c4",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.829Z",
+      "modified": "2025-08-06T08:27:31.829Z",
+      "name": "Software Vulnerabilities",
+      "description": "Software Vulnerabilities against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SOFT"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "resource-development"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--500608b2-35b8-45ab-b319-e1d553068a42",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.822Z",
+      "modified": "2025-08-06T08:27:31.822Z",
+      "name": "Chip Data Extraction",
+      "description": "Chip Data Extraction against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-CHIP"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "reconnaissance"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--5d73d39a-01c8-43c1-81b0-9a2372186eec",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.850Z",
+      "modified": "2025-08-06T08:27:31.850Z",
+      "name": "Access Control Flaws",
+      "description": "Access Control Flaws against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-ACCE"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--5dda743b-3fef-4a34-af38-6c067e027aa9",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.863Z",
+      "modified": "2025-08-06T08:27:31.863Z",
+      "name": "Vulnerability Exploitation",
+      "description": "Vulnerability Exploitation against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-VULN"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "command-and-control"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--6c6ccab3-6f82-44ef-8a5d-11dbc26be39e",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.848Z",
+      "modified": "2025-08-06T08:27:31.848Z",
+      "name": "Hardcoded Keys",
+      "description": "Hardcoded Keys against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-HARD"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--71c5447d-bbaf-4e71-9240-c7e9a3bda28b",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.829Z",
+      "modified": "2025-08-06T08:27:31.829Z",
+      "name": "Protocol Vulnerabilities",
+      "description": "Protocol Vulnerabilities against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-PROT"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "resource-development"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--768b23c3-86dc-4e24-bb68-bb6ae54a324a",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.854Z",
+      "modified": "2025-08-06T08:27:31.854Z",
+      "name": "Security Misconfiguration",
+      "description": "Security Misconfiguration against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SECU"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--78443427-9a7a-4358-bfde-914271f991b3",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.856Z",
+      "modified": "2025-08-06T08:27:31.856Z",
+      "name": "Spoofing",
+      "description": "Spoofing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SPOO"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--7bed4e11-6ec2-4dc3-93f4-177ca0c85a49",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.839Z",
+      "modified": "2025-08-06T08:27:31.839Z",
+      "name": "Valid Command",
+      "description": "Valid Command against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-VALI"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--7cf70f6b-fee0-47d9-80a3-129c2a592eb9",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.852Z",
+      "modified": "2025-08-06T08:27:31.852Z",
+      "name": "Disabled Protocol Authentication",
+      "description": "Disabled Protocol Authentication against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-DISA"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--89cf2bf6-eabf-4713-86e5-4d35d5ba9a45",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.828Z",
+      "modified": "2025-08-06T08:27:31.828Z",
+      "name": "Cryptographic Keys",
+      "description": "Cryptographic Keys against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-CRYP"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "resource-development"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--8b04294b-969c-4455-831a-ad8e81ddec66",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.830Z",
+      "modified": "2025-08-06T08:27:31.830Z",
+      "name": "Obtain Capability",
+      "description": "Obtain Capability against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-OBTA"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "resource-development"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--8be714c5-47d9-4ee2-b406-46aae3d916c4",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.823Z",
+      "modified": "2025-08-06T08:27:31.823Z",
+      "name": "Signal localization",
+      "description": "Signal localization against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SIGN"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "reconnaissance"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--8d732512-104d-4ce1-a4e7-472ad563c99d",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.849Z",
+      "modified": "2025-08-06T08:27:31.849Z",
+      "name": "Steal Cryptographic Keys",
+      "description": "Steal Cryptographic Keys against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-STEA"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--8db96044-5724-469c-8187-19c6f2dd9c89",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.824Z",
+      "modified": "2025-08-06T08:27:31.824Z",
+      "name": "Gather Satellite Design Information",
+      "description": "Gather Satellite Design Information against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-GATH"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "reconnaissance"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--91526cd9-99b7-4ac3-bae1-050fb277b4ba",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.835Z",
+      "modified": "2025-08-06T08:27:31.835Z",
+      "name": "Time Spoofing",
+      "description": "Time Spoofing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-TIME"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--91a4481e-3dea-4801-b0eb-e3249ebe264d",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.846Z",
+      "modified": "2025-08-06T08:27:31.846Z",
+      "name": "Sniffing",
+      "description": "Sniffing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SNIF"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--93317a14-b5bf-48de-9f9d-528903f41fec",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.847Z",
+      "modified": "2025-08-06T08:27:31.847Z",
+      "name": "Hardcoded Credentials",
+      "description": "Hardcoded Credentials against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-HARD"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--95354d9d-df19-41d0-8a02-5e05e0bc9c4e",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.827Z",
+      "modified": "2025-08-06T08:27:31.827Z",
+      "name": "Acquire jamming equipment",
+      "description": "Acquire jamming equipment against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-ACQU"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "resource-development"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--9fafd4bb-5191-4868-95f3-aabad0269727",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.853Z",
+      "modified": "2025-08-06T08:27:31.853Z",
+      "name": "Lack of integrity verification",
+      "description": "Lack of integrity verification against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-LACK"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--b4e63277-da64-479a-a494-59f3363aed14",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.851Z",
+      "modified": "2025-08-06T08:27:31.851Z",
+      "name": "Access Control Not Implemented",
+      "description": "Access Control Not Implemented against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-ACCE"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--bab1c863-fa84-4e7a-b1e9-dc7a97aa7c84",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.860Z",
+      "modified": "2025-08-06T08:27:31.860Z",
+      "name": "Buffer overflow",
+      "description": "Buffer overflow against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-BUFF"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "command-and-control"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--bfe6630c-e977-42b1-89fc-e89c1b7d9e10",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.864Z",
+      "modified": "2025-08-06T08:27:31.864Z",
+      "name": "Traffic Manipulation",
+      "description": "Traffic Manipulation against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-TRAF"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "command-and-control"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--c0ce31d2-4c7d-41cb-b845-9738b2251358",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.825Z",
+      "modified": "2025-08-06T08:27:31.825Z",
+      "name": "Acquire Infrastructure",
+      "description": "Acquire Infrastructure against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-ACQU"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "resource-development"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--c20c34c3-7196-4659-b814-a78aa691b4ba",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.833Z",
+      "modified": "2025-08-06T08:27:31.833Z",
+      "name": "Compromise Hosted Payload",
+      "description": "Compromise Hosted Payload against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-COMP"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "initial-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--c8ee3e7f-15a6-418d-b338-f13111ec080a",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.842Z",
+      "modified": "2025-08-06T08:27:31.842Z",
+      "name": "TC/TM Sniffing",
+      "description": "TC/TM Sniffing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-TC/T"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--ca8d6a77-c648-4e5f-8efa-b9f0dd1114f4",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.835Z",
+      "modified": "2025-08-06T08:27:31.835Z",
+      "name": "Forge Certificates",
+      "description": "Forge Certificates against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-FORG"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "initial-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--d3ce2c70-15cc-46b4-b82d-0d35edebbde2",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.827Z",
+      "modified": "2025-08-06T08:27:31.827Z",
+      "name": "Credential",
+      "description": "Credential against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-CRED"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "resource-development"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "resource-development"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--d69aecf0-f061-4cef-bd39-4a3881ef19bf",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.855Z",
+      "modified": "2025-08-06T08:27:31.855Z",
+      "name": "Valid Credential",
+      "description": "Valid Credential against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-VALI"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--d7887636-a5b8-44b0-9f4e-9ec2c3f1769b",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.862Z",
+      "modified": "2025-08-06T08:27:31.862Z",
+      "name": "Heap Overflow",
+      "description": "Heap Overflow against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-HEAP"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "command-and-control"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--db0c6a83-325f-4c86-baeb-83bded9e2cc3",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.831Z",
+      "modified": "2025-08-06T08:27:31.831Z",
+      "name": "Valid Credential",
+      "description": "Valid Credential against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-VALI"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "initial-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--e1a59fd5-e29f-4bb7-b2f1-b241d63ea21f",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.859Z",
+      "modified": "2025-08-06T08:27:31.859Z",
+      "name": "Sniffing",
+      "description": "Sniffing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SNIF"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "collection"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "collection"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--e2c0f334-6034-4045-bee1-8bd977650e83",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.862Z",
+      "modified": "2025-08-06T08:27:31.862Z",
+      "name": "Inconsistent Size Field",
+      "description": "Inconsistent Size Field against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-INCO"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "command-and-control"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--e6017ba8-71b6-454e-a7ed-43cacd1071a6",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.847Z",
+      "modified": "2025-08-06T08:27:31.847Z",
+      "name": "Call ID Spoofing",
+      "description": "Call ID Spoofing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-CALL"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--e6f04216-2cf4-4b15-a2ca-db8cca7e2a37",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.868Z",
+      "modified": "2025-08-06T08:27:31.868Z",
+      "name": "Data Tampering",
+      "description": "Data Tampering against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-DATA"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "impact"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "impact"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--eab4c669-19c8-4b92-a5ed-a96029f67165",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.865Z",
+      "modified": "2025-08-06T08:27:31.865Z",
+      "name": "Lack of command validation",
+      "description": "Lack of command validation against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-LACK"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "command-and-control"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--eb402948-fba1-484b-b50d-291e30021218",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.870Z",
+      "modified": "2025-08-06T08:27:31.870Z",
+      "name": "Denial of Service",
+      "description": "Denial of Service against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-DENI"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "impact"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "impact"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--eef791ec-c601-4a7b-8005-d5a1c42d262c",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.856Z",
+      "modified": "2025-08-06T08:27:31.856Z",
+      "name": "Access Control Flaws",
+      "description": "Access Control Flaws against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-ACCE"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "lateral-movement"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "lateral-movement"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--efd24840-4b80-4890-87f4-906e08f882c3",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.850Z",
+      "modified": "2025-08-06T08:27:31.850Z",
+      "name": "Default Credential",
+      "description": "Default Credential against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-DEFA"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "credential-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--f190edad-2637-4b16-a0b6-e9cb4994ce3b",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.867Z",
+      "modified": "2025-08-06T08:27:31.867Z",
+      "name": "TM Modification",
+      "description": "TM Modification against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-TM M"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "exfiltration"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exfiltration"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--f1910401-538e-45c3-9a47-cd8b6768d8dd",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.837Z",
+      "modified": "2025-08-06T08:27:31.837Z",
+      "name": "Position Spoofing",
+      "description": "Position Spoofing against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-POSI"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--f5cb5c4f-eb3f-40e8-9a11-9ec94466a166",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.866Z",
+      "modified": "2025-08-06T08:27:31.866Z",
+      "name": "Exfiltration Payload",
+      "description": "Exfiltration Payload against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-EXFI"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "exfiltration"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exfiltration"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--f6408249-ff58-4dd0-a969-a1e3f5e9c52c",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.832Z",
+      "modified": "2025-08-06T08:27:31.832Z",
+      "name": "Serial Port Exploitation",
+      "description": "Serial Port Exploitation against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-SERI"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "initial-access"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--f985966e-07f2-435b-ad4a-41042432ae7a",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.841Z",
+      "modified": "2025-08-06T08:27:31.841Z",
+      "name": "Ground Station Jamming",
+      "description": "Ground Station Jamming against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-GROU"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.0",
+      "id": "attack-pattern--fe9dce5a-e533-4a0b-8445-1b00b4d4ae7f",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.840Z",
+      "modified": "2025-08-06T08:27:31.840Z",
+      "name": "Erroneous Input",
+      "description": "Erroneous Input against spacecraft systems.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T-S-ERRO"
+        }
+      ],
+      "x_mitre_platforms": [
+        "Spacecraft"
+      ],
+      "x_mitre_tactic_type": [
+        "execution"
+      ],
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ]
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--3e4b64dd-20b5-4d97-9c33-1cdef5ac4a68",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.820Z",
+      "modified": "2025-08-06T08:27:31.820Z",
+      "name": "Exfiltration",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-EXFI"
+        }
+      ],
+      "x_mitre_shortname": "exfiltration"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--7692ccea-e531-484a-9f87-cb5e340c5631",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.818Z",
+      "modified": "2025-08-06T08:27:31.818Z",
+      "name": "Lateral Movement",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-LATE"
+        }
+      ],
+      "x_mitre_shortname": "lateral-movement"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--7a4e0498-1a27-4f67-bedf-e466c80cccfb",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.818Z",
+      "modified": "2025-08-06T08:27:31.818Z",
+      "name": "Collection",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-COLL"
+        }
+      ],
+      "x_mitre_shortname": "collection"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--870590a2-5176-4ff9-8f35-1e8189073e5f",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.812Z",
+      "modified": "2025-08-06T08:27:31.812Z",
+      "name": "Reconnaissance",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-RECO"
+        }
+      ],
+      "x_mitre_shortname": "reconnaissance"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--8f0ad374-2d39-4a5a-b108-7cbb35275886",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.816Z",
+      "modified": "2025-08-06T08:27:31.816Z",
+      "name": "Execution",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-EXEC"
+        }
+      ],
+      "x_mitre_shortname": "execution"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--a0977107-d838-49e2-9cc8-0b72a4ec09c1",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.817Z",
+      "modified": "2025-08-06T08:27:31.817Z",
+      "name": "Credential Access",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-CRED"
+        }
+      ],
+      "x_mitre_shortname": "credential-access"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--c4061a4e-51d8-4c3a-8100-c7c1c6472782",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.821Z",
+      "modified": "2025-08-06T08:27:31.821Z",
+      "name": "Impact",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-IMPA"
+        }
+      ],
+      "x_mitre_shortname": "impact"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--cc93c335-b292-4369-a8cf-6704e3c7076f",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.815Z",
+      "modified": "2025-08-06T08:27:31.815Z",
+      "name": "Initial Access",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-INIT"
+        }
+      ],
+      "x_mitre_shortname": "initial-access"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--d6592064-c53e-45df-ac5c-ca8f3104f468",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.819Z",
+      "modified": "2025-08-06T08:27:31.819Z",
+      "name": "Command and Control",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-COMM"
+        }
+      ],
+      "x_mitre_shortname": "command-and-control"
+    },
+    {
+      "type": "x-mitre-tactic",
+      "spec_version": "2.0",
+      "id": "x-mitre-tactic--fcf9bee6-1279-4ce0-a379-79480fe3989a",
+      "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+      "created": "2025-08-06T08:27:31.815Z",
+      "modified": "2025-08-06T08:27:31.815Z",
+      "name": "Resource Development",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "TA-S-RESO"
+        }
+      ],
+      "x_mitre_shortname": "resource-development"
+    }
+  ]
+}
