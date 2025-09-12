@@ -22,6 +22,20 @@
             "description": "The full ATT&CK for ICS Matrix includes techniques spanning various ICS assets and can be used to navigate through the knowledge base.",
             "tactic_refs": [
                 "x-mitre-tactic--daa4cbb1-b4f4-4723-a824-7f1efd6e0592",
+                "x-mitre-tactic--d679bca2-e57d-4935-8650-8031c87a4400",
+                "x-mitre-tactic--ffd5bcee-6e16-4dd2-8eca-7b3beedf33ca",
+                "x-mitre-tactic--4ca45d45-df4d-4613-8980-bac22d278fa5",
+                "x-mitre-tactic--5bc1d813-693e-4823-9961-abf9af4b0e92",
+                "x-mitre-tactic--5e29b093-294e-49e9-a803-dab3d73b77dd",
+                "x-mitre-tactic--78b23412-0651-46d7-a540-170a1ce8bd5a",
+                "x-mitre-tactic--2558fd61-8c75-4730-94c4-11926db2a263",
+                "x-mitre-tactic--c17c5845-175e-4421-9713-829d0573dbc9",
+                "x-mitre-tactic--7141578b-e50b-4dcc-bfa4-08a8dd689e9e",
+                "x-mitre-tactic--d108ce10-2419-4cf9-a774-46161d6c6cfe",
+                "x-mitre-tactic--f72804c5-f15a-449e-a5da-2eecd181f813",
+                "x-mitre-tactic--9a4e74ab-5008-408c-84bf-a10dfbc53462",
+                "x-mitre-tactic--5569339b-94c2-49ee-afb3-2222936582c8",
+                "x-mitre-tactic--bdfcd8a8-191a-46a2-b2c5-7c36cdcec4d0",
                 "x-mitre-tactic--93bf9a8e-b14c-4587-b6d5-9efc7c12eb45",
                 "x-mitre-tactic--78f1d2ae-a579-44c4-8fc5-3e1775c73fac",
                 "x-mitre-tactic--69da72d2-f550-41c5-ab9e-e8255707f28a",
@@ -42,6 +56,412 @@
             ],
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.2.0"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--2558fd61-8c75-4730-94c4-11926db2a263",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0006",
+                    "external_id": "TA0006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:32.408Z",
+            "name": "Credential Access",
+            "description": "The adversary is trying to steal account names and passwords.\n\nCredential Access consists of techniques for stealing credentials like account names and passwords. Techniques used to get credentials include keylogging or credential dumping. Using legitimate credentials can give adversaries access to systems, make them harder to detect, and provide the opportunity to create more accounts to help achieve their goals.",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "credential-access"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--4ca45d45-df4d-4613-8980-bac22d278fa5",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0002",
+                    "external_id": "TA0002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:32.769Z",
+            "name": "Execution",
+            "description": "The adversary is trying to run malicious code.\n\nExecution consists of techniques that result in adversary-controlled code running on a local or remote system. Techniques that run malicious code are often paired with techniques from all other tactics to achieve broader goals, like exploring a network or stealing data. For example, an adversary might use a remote access tool to run a PowerShell script that does Remote System Discovery. ",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "execution"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--5569339b-94c2-49ee-afb3-2222936582c8",
+            "created": "2019-03-14T18:44:44.639Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0040",
+                    "external_id": "TA0040"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:33.130Z",
+            "name": "Impact",
+            "description": "The adversary is trying to manipulate, interrupt, or destroy your systems and data.\n \nImpact consists of techniques that adversaries use to disrupt availability or compromise integrity by manipulating business and operational processes. Techniques used for impact can include destroying or tampering with data. In some cases, business processes can look fine, but may have been altered to benefit the adversaries\u2019 goals. These techniques might be used by adversaries to follow through on their end goal or to provide cover for a confidentiality breach.",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "impact"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--5bc1d813-693e-4823-9961-abf9af4b0e92",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0003",
+                    "external_id": "TA0003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:33.492Z",
+            "name": "Persistence",
+            "description": "The adversary is trying to maintain their foothold.\n\nPersistence consists of techniques that adversaries use to keep access to systems across restarts, changed credentials, and other interruptions that could cut off their access. Techniques used for persistence include any access, action, or configuration changes that let them maintain their foothold on systems, such as replacing or hijacking legitimate code or adding startup code. ",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "persistence"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--5e29b093-294e-49e9-a803-dab3d73b77dd",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0004",
+                    "external_id": "TA0004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:33.853Z",
+            "name": "Privilege Escalation",
+            "description": "The adversary is trying to gain higher-level permissions.\n\nPrivilege Escalation consists of techniques that adversaries use to gain higher-level permissions on a system or network. Adversaries can often enter and explore a network with unprivileged access but require elevated permissions to follow through on their objectives. Common approaches are to take advantage of system weaknesses, misconfigurations, and vulnerabilities. Examples of elevated access include: \n\n* SYSTEM/root level\n* local administrator\n* user account with admin-like access \n* user accounts with access to specific system or perform specific function\n\nThese techniques often overlap with Persistence techniques, as OS features that let an adversary persist can execute in an elevated context.  ",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "privilege-escalation"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--7141578b-e50b-4dcc-bfa4-08a8dd689e9e",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0008",
+                    "external_id": "TA0008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:34.223Z",
+            "name": "Lateral Movement",
+            "description": "The adversary is trying to move through your environment.\n\nLateral Movement consists of techniques that adversaries use to enter and control remote systems on a network. Following through on their primary objective often requires exploring the network to find their target and subsequently gaining access to it. Reaching their objective often involves pivoting through multiple systems and accounts to gain. Adversaries might install their own remote access tools to accomplish Lateral Movement or use legitimate credentials with native network and operating system tools, which may be stealthier. ",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "lateral-movement"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--78b23412-0651-46d7-a540-170a1ce8bd5a",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0005",
+                    "external_id": "TA0005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:34.581Z",
+            "name": "Defense Evasion",
+            "description": "The adversary is trying to avoid being detected.\n\nDefense Evasion consists of techniques that adversaries use to avoid detection throughout their compromise. Techniques used for defense evasion include uninstalling/disabling security software or obfuscating/encrypting data and scripts. Adversaries also leverage and abuse trusted processes to hide and masquerade their malware. Other tactics\u2019 techniques are cross-listed here when those techniques include the added benefit of subverting defenses. ",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "defense-evasion"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--9a4e74ab-5008-408c-84bf-a10dfbc53462",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0010",
+                    "external_id": "TA0010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:34.933Z",
+            "name": "Exfiltration",
+            "description": "The adversary is trying to steal data.\n\nExfiltration consists of techniques that adversaries may use to steal data from your network. Once they\u2019ve collected data, adversaries often package it to avoid detection while removing it. This can include compression and encryption. Techniques for getting data out of a target network typically include transferring it over their command and control channel or an alternate channel and may also include putting size limits on the transmission.",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "exfiltration"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--c17c5845-175e-4421-9713-829d0573dbc9",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0007",
+                    "external_id": "TA0007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:35.302Z",
+            "name": "Discovery",
+            "description": "The adversary is trying to figure out your environment.\n\nDiscovery consists of techniques an adversary may use to gain knowledge about the system and internal network. These techniques help adversaries observe the environment and orient themselves before deciding how to act. They also allow adversaries to explore what they can control and what\u2019s around their entry point in order to discover how it could benefit their current objective. Native operating system tools are often used toward this post-compromise information-gathering objective. ",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "discovery"
+        },
+        {
+            "modified": "2024-09-05T18:27:09.070Z",
+            "name": "Collection",
+            "description": "The adversary is trying to gather data of interest to their goal.\n\nCollection consists of techniques adversaries may use to gather information and the sources information is collected from that are relevant to following through on the adversary's objectives. Frequently, the next goal after collecting data is to either steal (exfiltrate) the data or to use the data to gain more information about the target environment. Common target sources include various drive types, browsers, audio, video, and email. Common collection methods include capturing screenshots and keyboard input.",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.1",
+            "x_mitre_shortname": "collection",
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--d108ce10-2419-4cf9-a774-46161d6c6cfe",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0009",
+                    "external_id": "TA0009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--d679bca2-e57d-4935-8650-8031c87a4400",
+            "created": "2020-09-30T16:11:59.650Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0042",
+                    "external_id": "TA0042"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:35.841Z",
+            "name": "Resource Development",
+            "description": "The adversary is trying to establish resources they can use to support operations.\n\nResource Development consists of techniques that involve adversaries creating, purchasing, or compromising/stealing resources that can be used to support targeting. Such resources include infrastructure, accounts, or capabilities. These resources can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using purchased domains to support Command and Control, email accounts for phishing as a part of Initial Access, or stealing code signing certificates to help with Defense Evasion.",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "resource-development"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--daa4cbb1-b4f4-4723-a824-7f1efd6e0592",
+            "created": "2020-10-02T14:48:41.809Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0043",
+                    "external_id": "TA0043"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:36.201Z",
+            "name": "Reconnaissance",
+            "description": "The adversary is trying to gather information they can use to plan future operations.\n\nReconnaissance consists of techniques that involve adversaries actively or passively gathering information that can be used to support targeting. Such information may include details of the victim organization, infrastructure, or staff/personnel. This information can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using gathered information to plan and execute Initial Access, to scope and prioritize post-compromise objectives, or to drive and lead further Reconnaissance efforts.",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "reconnaissance"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--f72804c5-f15a-449e-a5da-2eecd181f813",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0011",
+                    "external_id": "TA0011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:36.561Z",
+            "name": "Command and Control",
+            "description": "The adversary is trying to communicate with compromised systems to control them.\n\nCommand and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network. Adversaries commonly attempt to mimic normal, expected traffic to avoid detection. There are many ways an adversary can establish command and control with various levels of stealth depending on the victim\u2019s network structure and defenses.",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "command-and-control"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--ffd5bcee-6e16-4dd2-8eca-7b3beedf33ca",
+            "created": "2018-10-17T00:14:20.652Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0001",
+                    "external_id": "TA0001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:36.917Z",
+            "name": "Initial Access",
+            "description": "The adversary is trying to get into your network.\n\nInitial Access consists of techniques that use various entry vectors to gain their initial foothold within a network. Techniques used to gain a foothold include targeted spearphishing and exploiting weaknesses on public-facing web servers. Footholds gained through initial access may allow for continued access, like valid accounts and use of external remote services, or may be limited-use due to changing passwords.",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "initial-access"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--bdfcd8a8-191a-46a2-b2c5-7c36cdcec4d0",
+            "created": "2025-08-20T06:25:14.013Z",
+            "created_by_ref": "identity--897366ea-222a-4e5b-ab2e-4e5c3dd8d9a9",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TAS0001",
+                    "external_id": "TAS0001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--5fedecbb-97f1-4489-a807-2ffdbf29001d"
+            ],
+            "modified": "2025-08-20T06:25:14.013Z",
+            "name": "Impair Data Integrity",
+            "description": "Impair Data Integrity description\n\n",
+            "x_mitre_modified_by_ref": "identity--897366ea-222a-4e5b-ab2e-4e5c3dd8d9a9",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "impair-data-integrity"
         },
         {
             "type": "course-of-action",
@@ -3610,7 +4030,7 @@
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
-                "enterprise-attack"
+                "ics-attack"
             ],
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.2.0",
@@ -3835,6 +4255,2431 @@
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_shortname": "impair-process-control"
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--0aef7c22-3203-40ff-8abd-913fa91d2004",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.852Z",
+            "modified": "2025-08-06T08:27:31.852Z",
+            "name": "Lack of separation of permissions",
+            "description": "- 정의:\n    \n    사용자/노드/모듈 간 권한 경계가 명확히 분리되지 않아 낮은 권한이 높은 권한으로 쉽게 우회 가능.\n    \n- 위성 특화 예시:\n    - Payload가 운영자 TC 실행.\n    - 디버그 모드가 운영 권한과 동일.\n- 취약점 연결:\n    - Access Control Flaws",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS23.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--0af00d79-12a1-442d-9b0a-b10eeec310b5",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.845Z",
+            "modified": "2025-08-06T08:27:31.845Z",
+            "name": "Jamming",
+            "description": "- 정의:\n    \n    공격자가 위성과 지상국 간 uplink/downlink RF 신호를 고출력 노이즈로 방해하여 정상 명령 송수신과 데이터 흐름을 물리적으로 차단.\n    \n- 위성 특화 예시:\n    - LEO 위성 uplink 대역에 RF 재밍 신호 송출 → 지상국에서 TC(텔레커맨드) 전송 불가.\n    - downlink에 재밍 → TM(텔레메트리) 데이터 수신 방해 → 운영자 상태 모니터링 불가.\n    - GNSS 신호 재밍 → 궤도/시간 정보 오류 → Time Spoofing 연계.\n- 취약점 연결:\n    - Physical Layer DoS: RF 신호 자체를 방해해 논리적 인증으로는 방어 불가.\n    - Operational Risk: uplink 장애로 복구 과정에서 Debug 모드 노출 → 추가 침투 가능성.\n    - Access Control Limit: 무선 물리 신호 방해는 접근제어로 해결 불가.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS3"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--1636d5c6-b9f0-417f-8ef2-87fdb196e654",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.860Z",
+            "modified": "2025-08-06T08:27:31.860Z",
+            "name": "TC/TM Sniffing",
+            "description": "TC/TM Sniffing against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS52.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "collection"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "collection"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--1643c17e-d344-45e8-a879-e3181b3c3a04",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.832Z",
+            "modified": "2025-08-06T08:27:31.832Z",
+            "name": "Wireless Interface Exploitation",
+            "description": "- 정의:\n    \n    무선 링크(Wi-Fi, Bluetooth, UHF/VHF 등) 취약점을 악용해 무단 침투.\n    \n- 위성 특화 예시:\n    - 일부 위성은 지상국/인터페이스와의 단거리 무선 링크를 시험용으로 남겨두기도 함.\n    - Bluetooth/Wi-Fi 모듈이 페이로드 시험용으로 붙어있을 경우, 암호화/인증 없이 연결.\n    - RF 링크의 약한 암호화/인증 구조 → 무단 패킷 삽입.\n- 취약점 연결:\n    - Disabled Protocol Authentication: 무선 인터페이스에 인증이 비활성화되어 있음.\n    - Lack of integrity verification: 무선으로 유입되는 명령의 무결성 검사 생략.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS5"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "initial-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--1656f183-a7b1-484a-8671-037f7a171bd2",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.834Z",
+            "modified": "2025-08-06T08:27:31.834Z",
+            "name": "Obtain Cryptographic Keys",
+            "x_mitre_is_subtechnique": true,
+            "description": "- 정의:\n    \n    초기 접근 시 필요한 암호키, 인증키, 서명키 등을 직접 탈취/입수하여 명령 암호를 복호화하거나 위조.\n    \n- 위성 특화 예시:\n    - 지상국 OTA 링크에 사용되는 대칭키 유출.\n    - 위성 버스 암호화 키(예: CAN 버스 암호화 모듈) Chip Data Extraction으로 탈취.\n    - 과거 테스트용 Dummy Key가 운영에 그대로 사용됨.\n- 취약점 연결:\n    - Lack of integrity verification: 키가 있으면 악성 명령이나 페이로드를 무결성 검증 없이 수용.\n    - Disabled Protocol Authentication: 키를 입수했는데 프로토콜이 인증 옵션을 비활성화 → 누구든 명령 삽입 가능.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS51.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "initial-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--182e8297-3684-4204-8507-f1d80e6eb72e",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.857Z",
+            "modified": "2025-08-06T08:27:31.857Z",
+            "name": "Compromised Payload",
+            "description": "Compromised Payload against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS7"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "lateral-movement"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "lateral-movement"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--1915fe50-9349-4389-8b46-4bb4de4c2401",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.845Z",
+            "modified": "2025-08-06T08:27:31.845Z",
+            "name": "Flooding",
+            "description": "- 정의 : 시스템에 대량의 트래픽이나 명령을 보내 자원(버스, CPU, 메모리)을 소모시켜 서비스 거부(DoS)를 유발.\n- 위성 특화 예시:\n    - 버스에 대량의 Dummy TC를 송출 → TC Fetcher 과부하.\n    - uplink를 통해 수백 개의 명령 요청 전송 → 버스 충돌/혼잡 발생.\n    - 무한 루프 명령 삽입 → CDHS 처리 불가 상태.\n- 취약점 연결:\n    - Access Control Not Implemented: 발신지 제어 없음 → 누구든 명령 무한 송출.\n    - Lack of command validation: 대량 명령에 대한 레이트 리밋 없음.\n- Subtechnique\n    - Valid Command, ErrorneousInput",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS8"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--1a8e0618-fa9e-441c-a10c-039378000460",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.842Z",
+            "modified": "2025-08-06T08:27:31.842Z",
+            "name": "XSS",
+            "description": "XSS against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS9"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--28021010-6b15-44d9-99e3-66b4b49c348d",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.838Z",
+            "modified": "2025-08-06T08:27:31.838Z",
+            "x_mitre_is_subtechnique": true,
+            "name": "Command Packets",
+            "description": "- 정의:\n    \n    직접 무단 명령 패킷을 제작해 uplink나 버스를 통해 내부 시스템에 주입하고 실행.\n    \n- 위성 특화 예시:\n    - 지상국 uplink로 위성 궤도 변경 명령 전송.\n    - TC Fetcher가 이해할 수 있는 포맷으로 명령 주입.\n    - CDHS의 스케줄러나 데이터 핸들러에 무단 재구성 명령 삽입.\n- 취약점 연결:\n    - Access Control Flaws: 무단 명령이 허용됨.\n    - Lack of separation of permissions: 사용자 권한과 운영자 권한 구분이 없음.\n    - Disabled Protocol Authentication: 명령 유효성 검증 없음.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS18.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--2a44f5f7-f761-4737-be83-abafcdbd88bf",
+            "created": "2025-08-06T08:27:31.826Z",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1583/009",
+                    "external_id": "TS44.001"
+                }
+            ],
+            "modified": "2025-08-06T08:27:31.826Z",
+            "name": "Acquire Ground Station",
+            "description": "- 정의:\n    \n    공격 실행을 위한 실제 지상국 인프라를 확보하거나 불법 이용.\n    \n- 위성 특화 예시:\n    - 합법적 상용 지상국을 구매/임대.\n    - 불법으로 해외 지상국 인프라 침투(해킹) → uplink channel 장악.\n    - 물리적 위치 인수 → Signal Localization과 연결됨.\n- 취약점 연결:\n    - 인증/접근통제가 미흡한 지상국이면 허가되지 않은 uplink 전송이 가능.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "x_mitre_platforms": [
+                "None"
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--2a6b5408-174d-44f1-8a92-5f3471c30784",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.865Z",
+            "modified": "2025-08-06T08:27:31.865Z",
+            "name": "Exfiltration TM",
+            "description": "Exfiltration TM against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS12"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "exfiltration"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exfiltration"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--32ffa5b2-d56d-47fd-ac76-10571473cb8d",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.868Z",
+            "modified": "2025-08-06T08:27:31.868Z",
+            "name": "Data Exfiltration",
+            "description": "Data Exfiltration against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS13"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "impact"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impact"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--3745851b-a5c7-405e-b44d-b85dc81fe3bb",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.861Z",
+            "modified": "2025-08-06T08:27:31.861Z",
+            "name": "XSS",
+            "description": "XSS against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS24.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "command-and-control"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--38f7b80c-6000-4fa2-a25c-fcab92ce3860",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.839Z",
+            "modified": "2025-08-06T08:27:31.839Z",
+            "x_mitre_is_subtechnique": true,
+            "name": "Bus Traffic Replay",
+            "description": "- 정의:\n    \n    내부 버스에서 캡처한 유효한 메시지를 재삽입해 시스템이 동일한 명령을 중복 처리하게 한다.\n    \n- 위성 특화 예시:\n    - Payload ↔ TC Fetcher 간 TC 실행 신호 Replay → 중복 실행.\n    - 버스 스니핑 → 캡처한 프레임 반복 송출.\n- 취약점 연결:\n    - Access Control Flaws: 버스 메시지 인증 안 함.\n    - Lack of separation of permissions: 버스 노드 권한 구분 없음.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS18.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--3b88c82f-0a79-4359-b3c9-efbb435ab974",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.858Z",
+            "modified": "2025-08-06T08:27:31.858Z",
+            "name": "Lack of separation of permissions",
+            "description": "Lack of separation of permissions against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS58.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "lateral-movement"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "lateral-movement"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--3c4f6e7e-b3f4-411e-8433-028d3c21c50e",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.823Z",
+            "modified": "2025-08-06T08:27:31.823Z",
+            "name": "Sniffing",
+            "description": "- 정의:\n    \n    무선 신호, 내부 버스 신호(CAN, I2C 등) 또는 위성 지상국 링크를 무단 도청하여 데이터와 명령 트래픽을 수집.\n    \n- 구체 사례:\n    - RF 송수신기로 지상국 ↔ 위성 uplink/downlink 신호 도청.\n    - 암호화되지 않은 TC 패킷 캡처 → 반복 재사용 공격(Replay).\n    - 내부 개발/시험 단계에서 노출된 Debug Interface에서 버스 트래픽 캡처.\n- 위성 취약점 연관:\n    - Sniffing으로 인증 없는 명령 포맷 파악 → Access Control Not Implemented 약점 활용.\n    - TC/TM 구조 파악 → 임의 명령 제작 → Command Packets Spoofing 가능.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS17"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "reconnaissance"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "reconnaissance"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--4323d3dc-d9b6-439e-ad03-3911724af151",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.844Z",
+            "modified": "2025-08-06T08:27:31.844Z",
+            "name": "Replay",
+            "description": "- 정의 : 이전에 정당하게 교환된 TC/TM(텔레메트리) 데이터를 도청해 저장한 뒤 그대로 재전송하여 시스템 오작동 유발.\n- 위성 특화 예시:\n    - Sniffing 단계에서 캡처한 TC 명령 재전송 → 명령 반복 실행.\n    - Payload Update 명령을 Replay → 악성 코드 삽입.\n    - 버스 Traffic Replay: 버스에서 캡처한 명령을 다시 흘려보내서 권한 없는 상태에서 실행.\n- 취약점 연결:\n    - Lack of integrity verification: 패킷이 재전송됐는지 검증하지 않음.\n    - Disabled Protocol Authentication: 명령의 유효성을 검증하지 않음.\n    - 버전 넘버나 Nonce가 없으면 완벽히 동일한 명령이 반복 적용됨.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS18"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--44d77f67-e20c-453d-a038-7f9eb8a6f8b9",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.843Z",
+            "modified": "2025-08-06T08:27:31.843Z",
+            "name": "Spoofing",
+            "description": "- 정의:\n    \n    신호나 명령을 위조해 정상적인 것처럼 위장하여 내부 시스템을 속이고 무단 실행.\n    \n- 위성 특화 예시:\n    - TC(텔레커맨드) 패킷을 위조하여 정상 uplink인 척 전송.\n    - Bus Traffic Spoofing: 내부 버스에 합법 노드인 것처럼 위장된 노드 ID 사용.\n    - Call ID Spoofing: 내부 명령 호출 ID를 위조해 TC Fetcher가 허용하지 않은 명령 실행.\n- 취약점 연결:\n    - Access Control Not Implemented: 호출 ID만 맞으면 무단 명령 실행.\n    - Disabled Protocol Authentication: 패킷 신원 검증이 없음.\n    - Lack of separation of permissions: 위조된 신호도 구분 못함.\n- Subtechnique\n    - Time Spoofing, TC Spoofing, Position Spoofing",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS19"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--46a842a7-0888-4ddb-8adb-3664b5af533f",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.869Z",
+            "modified": "2025-08-06T08:27:31.869Z",
+            "name": "Data Disruption",
+            "description": "Data Disruption against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS20"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "impact"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impact"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--4d19278c-4ba9-4075-bed5-3c78fa53c4c4",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.829Z",
+            "modified": "2025-08-06T08:27:31.829Z",
+            "name": "Software Vulnerabilities",
+            "x_mitre_is_subtechnique": true,
+            "description": "- 정의:\n    \n    공격을 위해 이용 가능한 소프트웨어 취약점을 수집.\n    \n- 위성 특화 예시:\n    - 위성 OS(예: RTEMS, VxWorks) CVE 확인 → Buffer Overflow 취약점 조사.\n    - OTA 업데이터, CDHS 모듈의 미패치 취약점 확인.\n    - TC/TM 프로토콜 파서 취약점 발견.\n- 취약점 연결:\n    - 인증 없거나 무결성 검증 없는 구조라면 버퍼 오버플로우로 권한 상승.\n    - Vulnerability Exploitation으로 Command and Control 단계까지 연결.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS32.003"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "resource-development"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--500608b2-35b8-45ab-b319-e1d553068a42",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.822Z",
+            "modified": "2025-08-06T08:27:31.822Z",
+            "name": "Chip Data Extraction",
+            "description": "공격자가 물리적으로 위성을 회수하거나 지상에 존재하는 동일/유사 부품(공급망 경로에서)을 통해 칩(온보드 MCU, FPGA, PROM 등)에서 데이터를 추출한다.\n\n- 구체 사례:\n    - 칩에서 펌웨어 이미지 덤프 → TC Fetcher 명령 구조, 키 저장 영역 확인.\n    - 플래시/EEPROM 덤핑 후 암호키(암호화되지 않은 키/시드) 확보.\n- 위성 취약점 연관:\n    - 내부 인증 키 추출 → Disabled Protocol Authentication 우회.\n    - 무결성 서명 알고리즘 파라미터 확보 → Lack of integrity verification",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS22"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "reconnaissance"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "reconnaissance"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--5d73d39a-01c8-43c1-81b0-9a2372186eec",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.850Z",
+            "modified": "2025-08-06T08:27:31.850Z",
+            "name": "Access Control Flaws",
+            "description": "- 정의 : 인증/권한 관리 로직의 설계/구현이 부실하여 무단 접근이나 권한 우회가 가능.\n- 위성 특화 예시:\n    - Payload가 TC Fetcher에 직접 명령 송출.\n    - 디버그 포트 접근 제한 없음.\n- 취약점 연결:\n    - Access Control Not Implemented\n    - Lack of separation of permissions",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS23"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--5dda743b-3fef-4a34-af38-6c067e027aa9",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.863Z",
+            "modified": "2025-08-06T08:27:31.863Z",
+            "name": "Vulnerability Exploitation",
+            "description": "Vulnerability Exploitation against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS24"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "command-and-control"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--6c6ccab3-6f82-44ef-8a5d-11dbc26be39e",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.848Z",
+            "modified": "2025-08-06T08:27:31.848Z",
+            "name": "Hardcoded Keys",
+            "description": "- 정의 : 암호키가 코드/펌웨어에 하드코딩되어 공격자가 Chip Dump 등으로 추출 가능.\n- 위성 특화 예시 :\n    - uplink 암호화 키가 펌웨어에 하드코딩\n    - Chip Data Extraction.\n- 취약점 연결:\n    - Disabled Protocol Authentication",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS49.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--71c5447d-bbaf-4e71-9240-c7e9a3bda28b",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.829Z",
+            "modified": "2025-08-06T08:27:31.829Z",
+            "name": "Protocol Vulnerabilities",
+            "x_mitre_is_subtechnique": true,
+            "description": "- 정의:\n    \n    프로토콜 레벨에서 잘 알려진 취약점을 준비.\n    \n- 위성 특화 예시:\n    - CCSDS, CAN 버스에서 인증 필드가 없거나 옵션으로 설정된 구조.\n    - 버스 프로토콜에 Traffic Spoofing, Replay 공격이 가능함을 확인.\n- 취약점 연결:\n    - Lack of integrity verification → 신뢰성 없는 패킷 수용.\n    - Disabled Protocol Authentication → 임의 노드도 TC Fetcher에 명령 전송.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS32.004"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "resource-development"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--768b23c3-86dc-4e24-bb68-bb6ae54a324a",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.854Z",
+            "modified": "2025-08-06T08:27:31.854Z",
+            "name": "Security Misconfiguration",
+            "description": "- 정의 : 시스템 보안 설정이 잘못되었거나 누락되어 프로토콜 인증, 무결성 검사, 기본 계정 관리 등이 비활성화된 상태로 운영.\n- 위성 특화 예시:\n    - uplink 프로토콜에서 인증 옵션 꺼짐.\n    - OTA 파일 무결성 검사 미적용.\n- 취약점 연결:\n    - Disabled Protocol Authentication\n    - Lack of integrity verification",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS27"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--78443427-9a7a-4358-bfde-914271f991b3",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.856Z",
+            "modified": "2025-08-06T08:27:31.856Z",
+            "name": "Spoofing",
+            "description": "- 정의 : 공격자가 신원(ID), 호출 ID, 인증정보를 위조하여 정상 사용자의 요청처럼 보이도록 하여 내부 명령 흐름에 무단 접근 가능.\n- 위성 특화 예시:\n    - Call ID Spoofing으로 TC Fetcher가 정상 호출로 오인 → 무단 TC 실행.\n    - 내부 버스에서 노드 ID 위조 → 합법 노드로 인식.\n- 취약점 연결:\n    - Access Control Flaws: 요청자 검증 미흡.\n    - Disabled Protocol Authentication: ID/호출자 인증 절차 없음",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS28"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--7bed4e11-6ec2-4dc3-93f4-177ca0c85a49",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.839Z",
+            "modified": "2025-08-06T08:27:31.839Z",
+            "name": "Valid Command",
+            "description": "Valid Command against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS8.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--7cf70f6b-fee0-47d9-80a3-129c2a592eb9",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.852Z",
+            "modified": "2025-08-06T08:27:31.852Z",
+            "name": "Disabled Protocol Authentication",
+            "description": "- 정의 : 인증 로직이 존재하지만 설정상 비활성화되어 누구나 접근 가능.\n- 위성 특화 예시:\n    - uplink 명령 인증 옵션 Off.\n    - OTA 인증 로직 누락.\n- 취약점 연결:\n    - Disabled Protocol Authentication",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS27.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--89cf2bf6-eabf-4713-86e5-4d35d5ba9a45",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.828Z",
+            "modified": "2025-08-06T08:27:31.828Z",
+            "name": "Cryptographic Keys",
+            "x_mitre_is_subtechnique": true,
+            "description": "- 정의:\n    \n    키 관리가 허술한 경우 암호화 키나 인증키를 직접 확보.\n    \n- 위성 특화 예시:\n    - 버스 통신 AES Key 탈취 → TC 암호 복호화 후 무단 명령 제작.\n    - 지상국-위성 간 링크 암호화 키 탈취 → uplink hijacking.\n- 취약점 연결:\n    - Disabled Protocol Authentication → 키가 있어야 할 자리 비워져 있음.\n    - Hardcoded Key가 내부 펌웨어에서 발견됨.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS32.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "resource-development"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--8b04294b-969c-4455-831a-ad8e81ddec66",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.830Z",
+            "modified": "2025-08-06T08:27:31.830Z",
+            "name": "Obtain Capability",
+            "description": "- 정의:\n    \n    필요한 악성 코드, 펌웨어, 해킹 툴킷, Exploit 스크립트 등 기술적 역량을 확보.\n    \n- 위성 특화 예시:\n    - 무결성 검증이 미흡한 OTA(Over The Air) 업데이트 루틴을 분석해 악성 펌웨어 제작.\n    - Payload에 주입할 악성 스크립트/펌웨어를 개발.\n    - 공개 Exploit Kit에서 취약한 위성 버스 프로토콜용 툴킷 획득.\n- 취약점 연결:\n    - 무결성 검증 부재(Lack of integrity verification) → 악성 펌웨어를 OTA로 업로드.\n    - 인증이 약한 내부 버스를 통해 악성 Payload → TC Fetcher로 명령 확장.\n- Subtechnique:\n    - Credential, Cryptographic Key, Software Vulnerabilities, Protocol Vulnerabilities",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS32"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "resource-development"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--8be714c5-47d9-4ee2-b406-46aae3d916c4",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.823Z",
+            "modified": "2025-08-06T08:27:31.823Z",
+            "name": "Signal localization",
+            "description": "- 정의:\n    \n    위성 신호의 물리적 방향과 지리적 위치를 파악해 지상국 위치, 위성 궤도 위치, 안테나 지향 각도를 특정한다.\n    \n- 구체 사례:\n    - RF 방향 탐지(Direction Finding, DF) 장비 사용.\n    - LEO 위성의 경우 지상 추적국과의 통신 시점 파악.\n    - 지상국/송신소를 특정하여 물리적 공격(재밍, Spoofing) 가능.\n- 위성 취약점 연관:\n    - 지상국 위치를 특정해 재밍 장비 배치 → Resource Development의 Acquire Jamming Equipment와 연계.\n    - 신호 방해/오염으로 Denial of Service.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS33"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "reconnaissance"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "reconnaissance"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--8d732512-104d-4ce1-a4e7-472ad563c99d",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.849Z",
+            "modified": "2025-08-06T08:27:31.849Z",
+            "name": "Steal Cryptographic Keys",
+            "description": "- 정의:암호키/인증키를 도청, 공급망 공격 등으로 탈취해 인증을 우회.\n- 위성 특화 예시:\n    - SDR로 uplink 캡처 → 키 파생.\n    - 지상국 서버에서 키 유출.\n- 취약점 연결:\n    - Access Control Flaws\n    - Disabled Protocol Authentication",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS49.003"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--8db96044-5724-469c-8187-19c6f2dd9c89",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.824Z",
+            "modified": "2025-08-06T08:27:31.824Z",
+            "name": "Gather Satellite Design Information",
+            "description": "- 정의:\n    \n    공개 자료, 논문, 특허, 공급망 자료 등을 통해 위성 설계 세부사항(버스-페이로드 연결, 통신 규약, TC/TM 포맷 등)을 확보.\n    \n- 구체 사례:\n    - 상용 CubeSat 표준 버스(COTS Bus) 매뉴얼 다운로드.\n    - 위성 제작사의 논문에서 자세 제어, CDHS 구조 정보 수집.\n    - 시험/인증 문서에서 Serial Port나 Debug Interface 유무 확인.\n- 위성 취약점 연관:\n    - Payload가 내부 버스에 어떻게 연결되는지 구조 파악 → Lack of separation of permissions 확인.\n    - 인증/무결성 구조가 생략된 인터페이스를 식별 → Disabled Protocol Authentication 노출.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS35"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "reconnaissance"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "reconnaissance"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--91526cd9-99b7-4ac3-bae1-050fb277b4ba",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "x_mitre_is_subtechnique": true,
+            "created": "2025-08-06T08:27:31.835Z",
+            "modified": "2025-08-06T08:27:31.835Z",
+            "name": "Time Spoofing",
+            "description": "- 정의:\n    \n    공격자가 위성의 시간 소스(GNSS 등)를 위조해 onboard clock이나 스케줄러를 잘못 맞추게 하여 TC 실행 시점이나 데이터 동기화를 교란한다.\n    \n- 위성 특화 예시:\n    - GNSS 신호를 위조해 위성이 잘못된 타임스탬프를 사용 → TC Fetcher 명령 실행 타이밍 오류.\n    - Payload 데이터가 잘못된 시간 기준으로 수집되어 임무 실패.\n- 취약점 연결:\n    - Lack of integrity verification: 시간 정보 무결성 체크 없음.\n    - Disabled Protocol Authentication: GNSS 신호 인증 옵션 미적용.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS19.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--91a4481e-3dea-4801-b0eb-e3249ebe264d",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.846Z",
+            "modified": "2025-08-06T08:27:31.846Z",
+            "name": "Sniffing",
+            "description": "- 정의:\n    \n    공격자가 uplink/downlink RF 신호나 위성 내부 버스 트래픽을 무단 도청해 TC(명령) 구조, 암호키, Telemetry 상태 데이터를 실시간으로 탈취.\n    \n- 위성 특화 예시:\n    - SDR로 uplink/downlink RF 신호 캡처 → TC 명령 구조/암호키 확보.\n    - 내부 버스(CAN/I2C)에서 스니퍼 노드 삽입 → Payload ↔ TC Fetcher 명령 흐름 실시간 감시.\n    - Sniffing으로 캡처한 TC를 Replay로 재사용 → 무단 명령 실행.\n- 취약점 연결:\n    - Access Control Not Implemented: 내부 버스 노드 접근 제한 없음.\n    - Lack of encryption: RF 신호가 암호화되지 않아 평문 도청 가능.\n    - Disabled Protocol Authentication: 도청 데이터로 Spoofing/Replay 우회 가능.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS37"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--93317a14-b5bf-48de-9f9d-528903f41fec",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.847Z",
+            "modified": "2025-08-06T08:27:31.847Z",
+            "name": "Hardcoded Credentials",
+            "description": "- 정의 : 고정된 계정 정보(ID/PW)가 펌웨어나 코드에 남아 있어 공격자가 그대로 재사용.\n- 위성 특화 예시:\n    - CubeSat 디폴트 Telnet PW.\n    - OTA 서버 관리자 계정 기본값 유지.\n- 취약점 연결:\n    - Access Control Flaws\n    - Default Credential",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS49.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--95354d9d-df19-41d0-8a02-5e05e0bc9c4e",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.827Z",
+            "modified": "2025-08-06T08:27:31.827Z",
+            "name": "Acquire jamming equipment",
+            "x_mitre_is_subtechnique": true,
+            "description": "- 정의:\n    \n    RF 신호를 방해할 수 있는 재밍 장비 구비.\n    \n- 위성 특화 예시:\n    - LEO 위성의 특정 주파수 대역에 맞는 재밍 송신기 제작.\n    - Signal Localization으로 위치 추적 → 근처에서 물리적 재밍.\n- 취약점 연결:\n    - 재밍으로 uplink/downlink를 교란 → Denial of Service → 운영자가 복구 위해 디버깅 모드 진입 → 추가 공격 경로",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS44.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--9fafd4bb-5191-4868-95f3-aabad0269727",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.853Z",
+            "modified": "2025-08-06T08:27:31.853Z",
+            "name": "Lack of integrity verification",
+            "description": "- 정의 : 데이터/명령의 무결성을 검증하는 절차가 없거나 활성화되지 않아 위·변조 탐지가 불가능.\n- 위성 특화 예시:\n    - TC 명령 Hash/서명 검증 없음.\n    - OTA 파일 체크섬 적용 안 됨.\n- 취약점 연결:\n    - Lack of integrity verification",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS27.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--b4e63277-da64-479a-a494-59f3363aed14",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.851Z",
+            "modified": "2025-08-06T08:27:31.851Z",
+            "name": "Access Control Not Implemented",
+            "description": "- 정의:\n    \n    인증 절차나 권한 검증 로직 자체가 아예 구현되어 있지 않음.\n    \n- 위성 특화 예시:\n    - Payload ↔ TC Fetcher 연결에 인증 없음.\n    - 내부 버스 자유 접근.\n- 취약점 연결:\n    - Access Control Not Implemented",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS23.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--bab1c863-fa84-4e7a-b1e9-dc7a97aa7c84",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.860Z",
+            "modified": "2025-08-06T08:27:31.860Z",
+            "name": "Buffer overflow",
+            "description": "Buffer overflow against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS24.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "command-and-control"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--bfe6630c-e977-42b1-89fc-e89c1b7d9e10",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.864Z",
+            "modified": "2025-08-06T08:27:31.864Z",
+            "name": "Traffic Manipulation",
+            "description": "Traffic Manipulation against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS43"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "command-and-control"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "id": "attack-pattern--c0ce31d2-4c7d-41cb-b845-9738b2251358",
+            "created": "2025-08-06T08:27:31.825Z",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "revoked": false,
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS44"
+                }
+            ],
+            "modified": "2025-08-06T08:27:31.825Z",
+            "name": "Acquire Infrastructure",
+            "description": "- 정의:\n    \n    공격에 필요한 물리적/가상 인프라(서버, 지상국, 송수신 장치 등)를 확보.\n    \n- 위성 특화 예시:\n    - 지상국 안테나나 SDR(Software Defined Radio)을 구비하여 uplink/downlink 주파수 송수신.\n    - 고출력 송신 장비(High Gain Antenna)로 더 먼 거리에서도 위성과 통신.\n    - 클라우드 서버/리모트 C2 인프라를 준비하여 위성에 무단 명령 전송 시 관리 채널로 활용.\n- 취약점 연결:\n    - 인증이 없는 프로토콜(Disabled Protocol Authentication)이면 누구든 송수신 인프라만 있으면 무단 명령 송출 가능.\n    - Sniffing으로 캡처한 TC를 재전송하려면 인프라가 필요.\n- Subtechnique:\n    - Acquire Ground Station, Acquire Jamming Equipment",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ],
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "ics-attack"
+            ],
+            "x_mitre_is_subtechnique": false,
+            "x_mitre_platforms": [
+                "None"
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--c20c34c3-7196-4659-b814-a78aa691b4ba",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.833Z",
+            "modified": "2025-08-06T08:27:31.833Z",
+            "name": "Compromise Hosted Payload",
+            "description": "- 정의:\n    \n    위성이 탑재한 Hosted Payload(탑재체) 자체를 공격해 내부 진입점으로 사용.\n    \n    네 시나리오( Payload → TC Fetcher → CDHS )의 핵심!\n    \n- 위성 특화 예시:\n    - Payload에 외부 연구팀이 제공한 오픈소스 코드에 악성 루틴 삽입.\n    - Payload 데이터 업링크에 악성 명령 포함 → 내부 버스에 직접 전달.\n    - 내부 인터페이스 분리 미흡 → Payload가 TC Fetcher에 직접 무단 명령.\n- 취약점 연결:\n    - Access Control Not Implemented: Payload와 버스/TC Fetcher 사이 인증 없음.\n    - Lack of separation of permissions: Payload가 권한 없이 중요 TC 실행 가능.\n    - Disabled Protocol Authentication: 내부 명령 경로에 인증 옵션 비활성화.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS45"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "initial-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--c8ee3e7f-15a6-418d-b338-f13111ec080a",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.842Z",
+            "modified": "2025-08-06T08:27:31.842Z",
+            "name": "TC/TM Sniffing",
+            "description": "- 정의:\n    \n    공격자가 위성 시스템의 TC(텔레커맨드)와 TM(텔레메트리) 데이터 흐름을 무단 도청하여 내부 명령 구조, 상태 정보, 암호키 등을 실시간으로 수집.\n    \n- 위성 특화 예시:\n    - uplink/downlink RF를 SDR(Software Defined Radio)로 실시간 캡처 → TC 패킷 포맷 분석 → Replay, Spoofing 공격 준비.\n    - 내부 버스(CAN, I2C 등)에 악성 노드를 추가로 연결 → 버스 내 TC Fetcher ↔ CDHS ↔ Payload 간 실시간 명령 신호 스니핑.\n    - Sniffing으로 도출된 명령 흐름을 Bus Traffic Spoofing/Replay에 활용해 무단 명령 삽입.\n- 취약점 연결:\n    - Access Control Not Implemented: 내부 버스 노드 접근 제한 없음.\n    - Lack of encryption: uplink/downlink 데이터 흐름 암호화 미적용 → RF 신호가 평문으로 송수신됨.\n    - Disabled Protocol Authentication: 스니핑으로 캡처한 패킷이 인증 없이 재사용 가능.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS37.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--ca8d6a77-c648-4e5f-8efa-b9f0dd1114f4",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.835Z",
+            "modified": "2025-08-06T08:27:31.835Z",
+            "name": "Forge Certificates",
+            "x_mitre_is_subtechnique": true,
+            "description": "Forge Certificates against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS51.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "initial-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--d3ce2c70-15cc-46b4-b82d-0d35edebbde2",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.827Z",
+            "modified": "2025-08-06T08:27:31.827Z",
+            "name": "Credential",
+            "x_mitre_is_subtechnique": true,
+            "description": "- 정의:\n    \n    유효한 ID, 비밀번호, 암호키 등 자격증명을 확보.\n    \n- 위성 특화 예시:\n    - 내부 테스트 키가 GitHub 등에 노출 → 취득.\n    - 공급망(제조업체, 발주사)에서 유출된 키/시드 활용.\n    - 정찰 단계에서 Chip Extraction으로 얻은 키 사용.\n- 취약점 연결:\n    - Obtained Credential로 초기 Access 시도.\n    - 유효 Credential → 내부 인증 체계가 약하면 손쉽게 TC 실행.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS32.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "resource-development"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "resource-development"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--d69aecf0-f061-4cef-bd39-4a3881ef19bf",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.855Z",
+            "modified": "2025-08-06T08:27:31.855Z",
+            "name": "Valid Credential",
+            "description": "- 정의 : 공격자가 유효한 계정 정보(ID/PW)나 암호키를 탈취하거나 그대로 재사용해 위성 시스템에 무단 접근 가능.\n- 위성 특화 예시:\n    - 개발자 계정 유출 → 지상국 시스템 접근.\n    - Hardcoded Key 탈취 → uplink 무단 명령 송출.\n- 취약점 연결:\n    - Access Control Not Implemented\n    - Security Misconfiguration",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS49"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--d7887636-a5b8-44b0-9f4e-9ec2c3f1769b",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.862Z",
+            "modified": "2025-08-06T08:27:31.862Z",
+            "name": "Heap Overflow",
+            "description": "Heap Overflow against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS24.004"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "command-and-control"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--db0c6a83-325f-4c86-baeb-83bded9e2cc3",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.831Z",
+            "modified": "2025-08-06T08:27:31.831Z",
+            "name": "Valid Credential",
+            "description": "- 정의:\n    \n    공격자가 합법적인 계정 정보(ID/PW, 인증 토큰, 암호키)를 탈취하거나 입수하여 정식 사용자/운영자로 위장해 시스템에 접근.\n    \n- 위성 특화 예시:\n    - 개발자/운영자 인증서가 깃허브나 공급망에서 유출됨.\n    - 지상국에서 유지보수 키, OTA 인증서가 외부에 노출.\n    - Payload에 내장된 Hardcoded Key를 Chip Extraction으로 탈취 → 재사용.\n- 취약점 연결:\n    - Access Control Not Implemented: 인증 절차 자체가 없거나 우회 가능 → 유효 Credential만 있으면 바로 TC Fetcher 접근.\n    - Disabled Protocol Authentication: 키/인증서가 있어도 프로토콜이 무시 → 무단 접근이 더 쉬움.\n- Subtechnique\n    - Obtain Cryptographic Keys",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS51"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "initial-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--e1a59fd5-e29f-4bb7-b2f1-b241d63ea21f",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.859Z",
+            "modified": "2025-08-06T08:27:31.859Z",
+            "name": "Sniffing",
+            "description": "Sniffing against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS52"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "collection"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "collection"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--e2c0f334-6034-4045-bee1-8bd977650e83",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.862Z",
+            "modified": "2025-08-06T08:27:31.862Z",
+            "name": "Inconsistent Size Field",
+            "description": "Inconsistent Size Field against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS24.003"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "command-and-control"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--e6017ba8-71b6-454e-a7ed-43cacd1071a6",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.847Z",
+            "modified": "2025-08-06T08:27:31.847Z",
+            "name": "Call ID Spoofing",
+            "description": "- 정의:\n    \n    명령 실행에 필요한 호출 ID(Call ID)를 위조해 시스템이 신뢰할 수 없는 명령을 정상 요청으로 오인하도록 유도.\n    \n- 위성 특화 예시:\n    - TC Fetcher가 Call ID만 검증 → 위조 ID로 무단 실행.\n    - Payload가 정상 노드인 척 TC Fetcher 호출.\n- 취약점 연결:\n    - Access Control Not Implemented\n    - Disabled Protocol Authentication",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS28.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--e6f04216-2cf4-4b15-a2ca-db8cca7e2a37",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.868Z",
+            "modified": "2025-08-06T08:27:31.868Z",
+            "name": "Data Tampering",
+            "description": "Data Tampering against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS55"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "impact"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impact"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--eab4c669-19c8-4b92-a5ed-a96029f67165",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.865Z",
+            "modified": "2025-08-06T08:27:31.865Z",
+            "name": "Lack of command validation",
+            "description": "Lack of command validation against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS56"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "command-and-control"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--eb402948-fba1-484b-b50d-291e30021218",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.870Z",
+            "modified": "2025-08-06T08:27:31.870Z",
+            "name": "Denial of Service",
+            "description": "Denial of Service against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS57"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "impact"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impact"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--eef791ec-c601-4a7b-8005-d5a1c42d262c",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.856Z",
+            "modified": "2025-08-06T08:27:31.856Z",
+            "name": "Access Control Flaws",
+            "description": "Access Control Flaws against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS58"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "lateral-movement"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "lateral-movement"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--efd24840-4b80-4890-87f4-906e08f882c3",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.850Z",
+            "modified": "2025-08-06T08:27:31.850Z",
+            "name": "Default Credential",
+            "description": "- 정의:출고 시 제공된 기본 계정/암호가 운영 중에도 바뀌지 않아 누구나 접근 가능.\n- 위성 특화 예시:\n    - OTA 관리자 계정 PW 초기값 유지.\n    - Telnet 디폴트 PW.\n- 취약점 연결:\n    - Access Control Flaws\n    - Security Misconfiguration",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS49.004"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "credential-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "credential-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--f190edad-2637-4b16-a0b6-e9cb4994ce3b",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.867Z",
+            "modified": "2025-08-06T08:27:31.867Z",
+            "name": "TM Modification",
+            "description": "TM Modification against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS60"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "exfiltration"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exfiltration"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--f1910401-538e-45c3-9a47-cd8b6768d8dd",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.837Z",
+            "modified": "2025-08-06T08:27:31.837Z",
+            "name": "Position Spoofing",
+            "description": "- 정의:\n    \n    위성의 궤도/위치 데이터를 위조해 위치 기반 임무 실행 로직을 교란한다.\n    \n- 위성 특화 예시:\n    - GNSS ephemeris 위조 → 잘못된 위치 보고 → 지상국 안테나 추적 오류.\n    - 궤도 예측 잘못돼 통신 링크 손실.\n- 취약점 연결:\n    - Lack of integrity verification: 궤도 데이터 서명 누락.\n    - Disabled Protocol Authentication: GNSS 수신 신뢰성 검증 없음.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS19.003"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--f5cb5c4f-eb3f-40e8-9a11-9ec94466a166",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.866Z",
+            "modified": "2025-08-06T08:27:31.866Z",
+            "name": "Exfiltration Payload",
+            "description": "Exfiltration Payload against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS62"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "exfiltration"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "exfiltration"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--f6408249-ff58-4dd0-a969-a1e3f5e9c52c",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.832Z",
+            "modified": "2025-08-06T08:27:31.832Z",
+            "name": "Serial Port Exploitation",
+            "description": "- 정의:\n    \n    위성 내부 테스트용 디버그 포트(UART, JTAG 등)나 개발용 Serial Port를 악용해 직접 접근.\n    \n- 위성 특화 예시:\n    - 위성 발사 전/후 디버깅을 위해 남겨둔 Serial Port가 외부에서 연결됨.\n    - CubeSat이 지상 테스트에서 디버그 모드를 그대로 우주에서도 유지 → 외부 RF 명령으로 디버그 모드 진입.\n    - 지상국 장비에 연결된 Serial Port로 버스 접근.\n- 취약점 연결:\n    - Access Control Not Implemented: 포트 접근 시 인증 절차 없음.\n    - Lack of separation of permissions: 디버그 권한이 운영 권한과 분리되어 있지 않아 바로 TC Fetcher 접근 가능.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS63"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "initial-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--f985966e-07f2-435b-ad4a-41042432ae7a",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.841Z",
+            "modified": "2025-08-06T08:27:31.841Z",
+            "name": "Ground Station Jamming",
+            "description": "- 정의:\n    \n    공격자가 위성과 지상국 간 uplink/downlink 통신 신호 대역에 고출력 RF 노이즈 신호를 송출하여 정상 명령이나 데이터의 송수신을 방해.\n    \n- 위성 특화 예시:\n    - LEO 위성의 uplink 대역(예: S-band, UHF)을 맞춤형 RF 재밍 송신기로 차단 → 지상국에서 TC(텔레커맨드) 명령 전송 불가.\n    - downlink 대역에 강력한 신호 방해 → 지상국이 TM(텔레메트리) 데이터를 정상 수신하지 못함 → 상태 모니터링 불가.\n    - GNSS 스푸핑과 결합해 위성 클럭 동기화 신호를 무력화 → Time Spoofing과 연계 가능.\n- 취약점 연결:\n    - 물리 계층 DoS: RF 신호 자체 차단.\n    - Operational Risk: 지상국이 uplink 장애를 복구하려고 안전모드로 전환할 때, 다른 취약점(디버그 인터페이스 노출 등) 노출 가능.\n    - Access Control Limit: RF 신호 방해는 논리적 접근통제로 막기 어려움 → 물리적 방어 필요.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS3.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--fe9dce5a-e533-4a0b-8445-1b00b4d4ae7f",
+            "created_by_ref": "identity--76c17783-4756-4d92-af6d-f59d8b901586",
+            "created": "2025-08-06T08:27:31.840Z",
+            "modified": "2025-08-06T08:27:31.840Z",
+            "name": "Erroneous Input",
+            "description": "Erroneous Input against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS8.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--27c9f9aa-98ec-41f8-8cf2-3dad33e26de7",
+            "created_by_ref": "identity--5d4e4e32-ad7a-41aa-adf4-590a15f20b84",
+            "created": "2025-08-20T05:51:31.166Z",
+            "modified": "2025-08-20T05:51:31.166Z",
+            "name": "Security Misconfiguration",
+            "description": "Security Misconfiguration against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS70"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "initial-access"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--92683302-6c5f-4e35-acb6-726c7e7010b6",
+            "created_by_ref": "identity--9973f810-6b44-489b-9d2b-42c228bc4ccc",
+            "created": "2025-08-20T05:53:51.477Z",
+            "modified": "2025-08-20T05:53:51.477Z",
+            "name": "Unauthenticated firmware update",
+            "description": "Unauthenticated firmware against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS70.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "initial-access"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "initial-access"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--082f53e2-85f3-42e7-b8e4-312acd243cd1",
+            "created_by_ref": "identity--c448a092-7137-4c09-ad6d-c0716e66bc0d",
+            "created": "2025-08-20T06:01:07.440Z",
+            "modified": "2025-08-20T06:01:07.440Z",
+            "name": "TC Spoofing",
+            "description": "TC Spoofing against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS19.002"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--d2b5098b-329c-468c-8a43-0b6a56701632",
+            "created_by_ref": "identity--4e90a561-d336-4741-99ce-2b1b8f90e916",
+            "created": "2025-08-20T06:03:23.667Z",
+            "modified": "2025-08-20T06:03:23.667Z",
+            "name": "GNSS Spoofing",
+            "description": "GNSS Spoofing against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS19.004"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--64e43c52-2824-4172-ba38-71e929cc8110",
+            "created_by_ref": "identity--856f445f-dd9c-4327-8e54-2a0c5717a573",
+            "created": "2025-08-20T06:07:57.890Z",
+            "modified": "2025-08-20T06:07:57.890Z",
+            "name": "Malware Execution",
+            "description": "Malware Execution against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS71"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "execution"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "execution"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--a732fd10-272d-4730-9cde-ea086f49edbf",
+            "created_by_ref": "identity--d965df20-bf32-4a79-9682-9766b21dfd09",
+            "created": "2025-08-20T06:31:29.335Z",
+            "modified": "2025-08-20T06:31:29.335Z",
+            "name": "Security Misconfiguration",
+            "description": "- 정의 : 위성 시스템에서 필수적인 무결성 검증, 인증 절차, 데이터 보호 설정이 누락되거나 비활성화된 상태.\n- 위성 특화 예시 :\n    - Unauthenticated Firmware Update : 펌웨어 업데이트 시 서명, MAC 검증 미적용 → 공격자가 악성 펌웨어 삽입 가능.\n    - OTA 프로토콜에서 암호화는 활성화되었으나, 무결성 검증(MAC/Signature) 이 비활성화된 사례.\n    - 시스템 초기화 이후 기본 보안 설정이 비활성화된 상태로 남아 OTA 진행.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS72"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "impair-data-integrity"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impair-data-integrity"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--2a737d92-703a-401c-b43d-c3a4df0d8d7a",
+            "created_by_ref": "identity--47d16697-269a-4c50-8e27-c2fa0f6897c2",
+            "created": "2025-08-20T06:32:54.162Z",
+            "modified": "2025-08-20T06:32:54.162Z",
+            "name": "Traffic Manipulation",
+            "description": "- 정의 : 위성의 통신 트래픽 (uplink/downlink/internal bus) 흐름을 변조하여 명령 재작성, 데이터 오염, 비정상 동작을 유발하는 공격.\n- 위성 특화 예시 :\n    - TC 길이 필드를 변조하여 후속 패킷 내용을 덮어쓰기 → 인접 명령 왜곡.\n    - DDNS 트래픽 변조로 지상국 시스템의 연결 대상 재지정.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS73"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "impair-data-integrity"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impair-data-integrity"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--b7371329-1287-43a6-8136-2cd7979f682a",
+            "created_by_ref": "identity--95ef2e3b-1f23-4de3-b5bc-002d019e6889",
+            "created": "2025-08-20T06:35:22.807Z",
+            "modified": "2025-08-20T06:35:22.807Z",
+            "name": "Weak Received Signal Power",
+            "description": "- 정의 : 수신 신호 강도(RSSI)가 약화되면 시스템이 임의 신호도 정상으로 처리하거나 재밍, 스푸핑 공격에 취약해짐.\n- 위성 특화 예시:\n    - 신호가 약할 때 공격자가 고출력 신호를 송출하여 Fake Command Injection.\n    - 지상국에서 재밍 공격으로 정상 신호 차단 후 malicious fallback uplink 활성화.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS74"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "impair-data-integrity"
+            ],
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impair-data-integrity"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--f6342b95-7a10-41bb-9020-51d9e9a76fa4",
+            "created_by_ref": "identity--e0e9623a-1001-45d7-9e0c-7af7f2e532c2",
+            "created": "2025-08-20T06:37:59.791Z",
+            "modified": "2025-08-20T06:37:59.791Z",
+            "name": "unauthenticated firmware update",
+            "description": "- 정의 : 펌웨어 업데이트 과정에서 인증이나 무결성 검증이 누락되어 공격자가 조작된 펌웨어를 주입할 수 있는 상태.\n- 위성 특화 예시 :\n    - OTA Update 프로토콜에서 서명 검증이 비활성화 → 공격자가 변조된 펌웨어 전송.\n    - OTA 프로토콜에서 암호화만 적용되고, 무결성 검증 과정이 생략됨.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS72.001"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "impair-data-integrity"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "impair-data-integrity"
+                }
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.0",
+            "id": "attack-pattern--160e5dbf-5bba-4088-9fdd-d85712900426",
+            "created_by_ref": "identity--4c17ad9b-8579-4f20-9aff-d251d8abbbc1",
+            "created": "2025-08-20T06:47:25.457Z",
+            "modified": "2025-08-20T06:47:25.457Z",
+            "name": "ROP",
+            "description": "ROP against spacecraft systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "external_id": "TS24.005"
+                }
+            ],
+            "x_mitre_platforms": [
+                "None"
+            ],
+            "x_mitre_tactic_type": [
+                "command-and-control"
+            ],
+            "x_mitre_is_subtechnique": true,
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-attack",
+                    "phase_name": "command-and-control"
+                }
+            ]
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--7434e79b-8343-4ecf-ba5f-f1d9b1895989",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--0aef7c22-3203-40ff-8abd-913fa91d2004",
+            "target_ref": "attack-pattern--5d73d39a-01c8-43c1-81b0-9a2372186eec"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--56d9d0bc-98ad-4d4f-8474-46cbcb1c1fba",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--1636d5c6-b9f0-417f-8ef2-87fdb196e654",
+            "target_ref": "attack-pattern--e1a59fd5-e29f-4bb7-b2f1-b241d63ea21f"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--566793d4-1dc1-4250-8735-e6575bc5d2a4",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--1656f183-a7b1-484a-8671-037f7a171bd2",
+            "target_ref": "attack-pattern--db0c6a83-325f-4c86-baeb-83bded9e2cc3"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b3595fcb-bfec-47e0-a4a2-d356d6546450",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--28021010-6b15-44d9-99e3-66b4b49c348d",
+            "target_ref": "attack-pattern--4323d3dc-d9b6-439e-ad03-3911724af151"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b34f9f74-383e-4755-a82e-2e0e4f314dab",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--2a44f5f7-f761-4737-be83-abafcdbd88bf",
+            "target_ref": "attack-pattern--c0ce31d2-4c7d-41cb-b845-9738b2251358"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--ffacdfa5-5548-405f-9052-74fbb8012ff3",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--3745851b-a5c7-405e-b44d-b85dc81fe3bb",
+            "target_ref": "attack-pattern--5dda743b-3fef-4a34-af38-6c067e027aa9"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--d52b461e-b586-4aab-87bf-e0a7ead3573d",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--38f7b80c-6000-4fa2-a25c-fcab92ce3860",
+            "target_ref": "attack-pattern--4323d3dc-d9b6-439e-ad03-3911724af151"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b62c2be6-2e46-4376-8215-4b3313bf30f0",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--3b88c82f-0a79-4359-b3c9-efbb435ab974",
+            "target_ref": "attack-pattern--eef791ec-c601-4a7b-8005-d5a1c42d262c"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--33d99c7b-eb1b-4e60-a5f0-ab054ae9f7a2",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--4d19278c-4ba9-4075-bed5-3c78fa53c4c4",
+            "target_ref": "attack-pattern--8b04294b-969c-4455-831a-ad8e81ddec66"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--e9de30cf-c8bb-495a-a2ed-27495efe6dc6",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--6c6ccab3-6f82-44ef-8a5d-11dbc26be39e",
+            "target_ref": "attack-pattern--d69aecf0-f061-4cef-bd39-4a3881ef19bf"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--30c96400-8c36-400e-a45e-4f93e9b763ec",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--71c5447d-bbaf-4e71-9240-c7e9a3bda28b",
+            "target_ref": "attack-pattern--8b04294b-969c-4455-831a-ad8e81ddec66"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--53750586-ed54-471e-a177-d188a72f3127",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--7bed4e11-6ec2-4dc3-93f4-177ca0c85a49",
+            "target_ref": "attack-pattern--1915fe50-9349-4389-8b46-4bb4de4c2401"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--1fa8953e-2277-423d-a18e-cf03a3184746",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--7cf70f6b-fee0-47d9-80a3-129c2a592eb9",
+            "target_ref": "attack-pattern--768b23c3-86dc-4e24-bb68-bb6ae54a324a"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--c67546b4-85f7-4a64-bab1-f80c20960d76",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--89cf2bf6-eabf-4713-86e5-4d35d5ba9a45",
+            "target_ref": "attack-pattern--8b04294b-969c-4455-831a-ad8e81ddec66"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--36673268-2fe1-452c-819d-d45988fe3051",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--8d732512-104d-4ce1-a4e7-472ad563c99d",
+            "target_ref": "attack-pattern--d69aecf0-f061-4cef-bd39-4a3881ef19bf"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--11198f6e-fc72-4f26-ac92-7b6aa971b9e1",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--91526cd9-99b7-4ac3-bae1-050fb277b4ba",
+            "target_ref": "attack-pattern--44d77f67-e20c-453d-a038-7f9eb8a6f8b9"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--3c750694-6a49-4ef0-8cc7-14a114019709",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--93317a14-b5bf-48de-9f9d-528903f41fec",
+            "target_ref": "attack-pattern--d69aecf0-f061-4cef-bd39-4a3881ef19bf"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--3d353441-7c23-4cdc-b8de-f00f9c51f916",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--95354d9d-df19-41d0-8a02-5e05e0bc9c4e",
+            "target_ref": "attack-pattern--c0ce31d2-4c7d-41cb-b845-9738b2251358"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--dd997151-f5b7-4c58-8e3e-33d026bd4561",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--9fafd4bb-5191-4868-95f3-aabad0269727",
+            "target_ref": "attack-pattern--768b23c3-86dc-4e24-bb68-bb6ae54a324a"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--124a2ffd-c7a5-4927-a486-9f931150f96f",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--b4e63277-da64-479a-a494-59f3363aed14",
+            "target_ref": "attack-pattern--5d73d39a-01c8-43c1-81b0-9a2372186eec"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--79009b6c-595b-4618-ae2b-5e38cdc85091",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--bab1c863-fa84-4e7a-b1e9-dc7a97aa7c84",
+            "target_ref": "attack-pattern--5dda743b-3fef-4a34-af38-6c067e027aa9"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--2926769c-47d1-4c84-9fd7-edaac90bd26a",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--c8ee3e7f-15a6-418d-b338-f13111ec080a",
+            "target_ref": "attack-pattern--91a4481e-3dea-4801-b0eb-e3249ebe264d"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--eb8aa9d2-c044-4d5b-8ad7-22a08b7e37d9",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--ca8d6a77-c648-4e5f-8efa-b9f0dd1114f4",
+            "target_ref": "attack-pattern--db0c6a83-325f-4c86-baeb-83bded9e2cc3"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--c3f357c4-587d-4d0a-b7b7-daa6e8e3923e",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--d3ce2c70-15cc-46b4-b82d-0d35edebbde2",
+            "target_ref": "attack-pattern--8b04294b-969c-4455-831a-ad8e81ddec66"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--d915ea54-af44-4b3c-b196-464b5388cb84",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--d7887636-a5b8-44b0-9f4e-9ec2c3f1769b",
+            "target_ref": "attack-pattern--5dda743b-3fef-4a34-af38-6c067e027aa9"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--7e227a2c-ecfd-4bf6-afad-e9b886dc0614",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--e2c0f334-6034-4045-bee1-8bd977650e83",
+            "target_ref": "attack-pattern--5dda743b-3fef-4a34-af38-6c067e027aa9"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--5faa49b4-a37a-49b0-91e5-0097939dc139",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--e6017ba8-71b6-454e-a7ed-43cacd1071a6",
+            "target_ref": "attack-pattern--78443427-9a7a-4358-bfde-914271f991b3"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--77ac0b81-a7e2-4927-b161-0129336efdc3",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--efd24840-4b80-4890-87f4-906e08f882c3",
+            "target_ref": "attack-pattern--d69aecf0-f061-4cef-bd39-4a3881ef19bf"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--f34f1a42-ddf2-4dac-bd93-bc1c4d71c614",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--f1910401-538e-45c3-9a47-cd8b6768d8dd",
+            "target_ref": "attack-pattern--44d77f67-e20c-453d-a038-7f9eb8a6f8b9"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--2025b925-f510-49d6-bd1d-16c5ca9cf27a",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--f985966e-07f2-435b-ad4a-41042432ae7a",
+            "target_ref": "attack-pattern--0af00d79-12a1-442d-9b0a-b10eeec310b5"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--865cbf23-e097-495e-ab54-5cc554335388",
+            "created": "2025-08-19T00:00:00.000Z",
+            "modified": "2025-08-19T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--fe9dce5a-e533-4a0b-8445-1b00b4d4ae7f",
+            "target_ref": "attack-pattern--1915fe50-9349-4389-8b46-4bb4de4c2401"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--a1c8f9e5-3e3d-4f51-8e1c-2a9f0b1c2d3e",
+            "created": "2025-08-20T00:00:00.000Z",
+            "modified": "2025-08-20T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--92683302-6c5f-4e35-acb6-726c7e7010b6",
+            "target_ref": "attack-pattern--27c9f9aa-98ec-41f8-8cf2-3dad33e26de7"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--b2d7e4a1-8f0a-4d2e-9f33-78c6a4b5d0e1",
+            "created": "2025-08-20T00:00:00.000Z",
+            "modified": "2025-08-20T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--91526cd9-99b7-4ac3-bae1-050fb277b4ba",
+            "target_ref": "attack-pattern--44d77f67-e20c-453d-a038-7f9eb8a6f8b9"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--c3e9f0b2-1a4d-4b6f-8c7e-2d1f3a5b6c7d",
+            "created": "2025-08-20T00:00:00.000Z",
+            "modified": "2025-08-20T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--082f53e2-85f3-42e7-b8e4-312acd243cd1",
+            "target_ref": "attack-pattern--44d77f67-e20c-453d-a038-7f9eb8a6f8b9"
+        },
+        {
+            "type": "relationship",
+            "id": "relationship--d4f0a1b2-c3d4-4e5f-9a0b-1c2d3e4f5a6b",
+            "created": "2025-08-20T00:00:00.000Z",
+            "modified": "2025-08-20T00:00:00.000Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--f6342b95-7a10-41bb-9020-51d9e9a76fa4",
+            "target_ref": "attack-pattern--a732fd10-272d-4730-9cde-ea086f49edbf"
         },
         {
             "type": "attack-pattern",
