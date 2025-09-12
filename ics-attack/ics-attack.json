@@ -21,9 +21,10 @@
             "name": "ATT&CK for ICS",
             "description": "The full ATT&CK for ICS Matrix includes techniques spanning various ICS assets and can be used to navigate through the knowledge base.",
             "tactic_refs": [
-                "x-mitre-tactic--69da72d2-f550-41c5-ab9e-e8255707f28a",
+                "x-mitre-tactic--daa4cbb1-b4f4-4723-a824-7f1efd6e0592",
                 "x-mitre-tactic--93bf9a8e-b14c-4587-b6d5-9efc7c12eb45",
                 "x-mitre-tactic--78f1d2ae-a579-44c4-8fc5-3e1775c73fac",
+                "x-mitre-tactic--69da72d2-f550-41c5-ab9e-e8255707f28a",
                 "x-mitre-tactic--33752ae7-f875-4f43-bdb6-d8d02d341046",
                 "x-mitre-tactic--ddf70682-f3ce-479c-a9a4-7eadf9bfead7",
                 "x-mitre-tactic--696af733-728e-49d7-8261-75fdc590f453",
@@ -3587,6 +3588,33 @@
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.2.0",
             "x_mitre_shortname": "discovery"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--daa4cbb1-b4f4-4723-a824-7f1efd6e0592",
+            "created": "2020-10-02T14:48:41.809Z",
+            "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "external_references": [
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/tactics/TA0043",
+                    "external_id": "TA0043"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+            ],
+            "modified": "2025-04-25T14:45:36.201Z",
+            "name": "Reconnaissance",
+            "description": "The adversary is trying to gather information they can use to plan future operations.\n\nReconnaissance consists of techniques that involve adversaries actively or passively gathering information that can be used to support targeting. Such information may include details of the victim organization, infrastructure, or staff/personnel. This information can be leveraged by the adversary to aid in other phases of the adversary lifecycle, such as using gathered information to plan and execute Initial Access, to scope and prioritize post-compromise objectives, or to drive and lead further Reconnaissance efforts.",
+            "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
+            "x_mitre_domains": [
+                "enterprise-attack"
+            ],
+            "x_mitre_version": "1.0",
+            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_shortname": "reconnaissance"
         },
         {
             "type": "x-mitre-tactic",
